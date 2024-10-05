@@ -1,0 +1,25 @@
+<wpml-config>
+
+  <admin-texts>
+
+    <key name="xoo-wsc-gl-options">
+      <key name="sct-cart-heading" />
+      <key name="sct-ft-contbtn" />
+      <key name="sct-ft-cartbtn" />
+      <key name="sct-ft-chkbtn" />
+      <key name="sct-empty" />
+      <key name="sct-shop-btn" />
+      <key name="sct-sb-remaining" />
+      <key name="sct-sb-free" />
+      <key name="scu-continue" />
+      <key name="scu-cart" />
+      <key name="scu-checkout" />
+      <key name="sct-subtotal" />
+      <key name="sct-footer" />
+      <key name="sct-delete" />
+      <key name="m-shop-url" />
+    </key>
+
+  </admin-texts>
+
+</wpml-config>

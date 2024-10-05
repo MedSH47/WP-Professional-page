@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#8EA5A4;}
+	.st1{fill:#FDFFFF;}
+	.st2{fill:#E6EFEF;}
+	.st3{opacity:0.4;fill:#B1BCBC;enable-background:new    ;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#E8EFEE;}
+	.st6{fill:none;stroke:#8EA5A4;stroke-width:4;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#8EA5A4;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#8EA5A4;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M496,476.8c0,10.4-8.8,19.2-19.2,19.2H19.2C8.8,496,0,487.2,0,476.8V19.2C0,8.8,8.8,0,19.2,0h457.6
+	C487.2,0,496,8.8,496,19.2V476.8z"/>
+<path class="st1" d="M15.2,73v382.4c0,9.6,8,17.6,17.6,17.6h430.4c9.6,0,17.6-8,17.6-17.6V73H15.2z"/>
+<path class="st1" d="M395.2,39.2c0,9.6-8,17.6-17.6,17.6H32c-9.6,0-8-8-8-17.6s-1.6-17.6,8-17.6h345.6
+	C387.2,22.4,395.2,29.6,395.2,39.2z"/>
+<path class="st2" d="M24,39.2c0-9.6-1.6-17.6,8-17.6h345.6c9.6,0,17.6,8,17.6,17.6"/>
+<circle class="st3" cx="426.4" cy="41.6" r="8.8"/>
+<circle class="st4" cx="426.4" cy="37.6" r="8.8"/>
+<path class="st5" d="M420,31.2c3.2-3.2,9.6-3.2,12.8,0s3.2,9.6,0,12.8"/>
+<circle class="st3" cx="462.4" cy="41.6" r="8.8"/>
+<circle class="st4" cx="462.4" cy="37.6" r="8.8"/>
+<path class="st5" d="M456,31.2c3.2-3.2,9.6-3.2,12.8,0s3.2,9.6,0,12.8"/>
+<path class="st6" d="M413.5,183H78.1c-7.8,0-14.1-7.5-14.1-16.9V137c0-9.3,6.3-16.9,14.1-16.9h335.4c7.8,0,14.1,7.5,14.1,16.9v29.1
+	C427.6,175.5,421.3,183,413.5,183z"/>
+<g>
+	<path class="st6" d="M409.5,431.6H80.1c-10,0-18.1-7.6-18.1-16.9v-196c0-9.3,8.2-16.9,18.1-16.9h329.3c10,0,18.1,7.6,18.1,16.9v196
+		C427.6,424,419.4,431.6,409.5,431.6z"/>
+	<path class="st7" d="M111.9,382.7h265.9"/>
+	<path class="st7" d="M376.2,344.6H111.9"/>
+	<path class="st7" d="M376.2,305.1H111.9"/>
+	<path class="st8" d="M376.2,252.9H111.9"/>
+</g>
+</svg>

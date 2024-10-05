@@ -1,0 +1,186 @@
+
+table.form-table td select[name^="pix-"],
+table.form-table td input[name^="pix-"],
+table.form-table td textarea[name^="pix-"] {
+	display: block;
+    margin-top: -7px;
+	min-width: 260px;
+	padding: 9px 12px !important;
+	font-size: 13px;
+	line-height: 1.5 !important;
+	color: #555555;
+	background-color: #ffffff;
+	/*background-image: none;*/
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	-webkit-transition: border-color ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s;
+	transition: border-color ease-in-out .15s;
+}
+
+table.form-table td select[name^="pix-"],
+table.form-table td input[name^="pix-"]{
+	height: 39px !important;
+}
+
+table.form-table td textarea[name^="pix-"] {
+	height: 150px;
+}
+
+.toplevel_page_pix-settings > .wp-menu-image img{
+    max-width: 30px;
+    position: relative;
+    top: 2px;
+    padding-top: 0 !important;
+}
+
+.pix-width-xs{
+	min-width: 60px !important;
+    width: 60px;
+}
+.pix-width-s{
+	min-width: 120px !important;
+    width: 120px;
+}
+.pix-width-m{
+	min-width: 205px !important;
+    width: 205px;
+}
+.pix-width-l{
+	min-width: 260px !important;
+    width: 260px;
+}
+.pix-width-xl{
+	min-width: 350px !important;
+    width: 350px;
+}
+
+
+
+
+.pix-fields-form {
+	position: relative;
+    padding: 10px 20px;
+	background-color: #ffffff;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+}
+.pix-form-group{
+    display: grid;
+    grid-template-columns: 15% 70%;
+    grid-column-gap: 20px;
+}
+.pix-header{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 11px;
+}
+.pix-content{
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-column-gap: 10px;
+    width: 100%;
+    position: relative;
+}
+.pix-content.value + .pix-content.value{
+    padding-top: 15px;
+}
+.pix-content.header{
+    padding: 11px 0 10px;
+    font-size: 14px;
+}
+.pix-content select,
+.pix-content input{
+    width: 100%;
+    padding: 10px 20px;
+}
+.pix-form-control,
+.pix-multitoggle-input,
+table.form-table td select[name^="pix"],
+table.form-table td input[name^="pix"],
+table.form-table td textarea[name^="pix"] {
+	display: block;
+    margin-top: -7px;
+	padding: 9px 12px !important;
+	font-size: 13px;
+	line-height: 1.5 !important;
+	color: #555555;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	-webkit-transition: border-color ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s;
+	transition: border-color ease-in-out .15s;
+}
+.pix-form-control,
+.pix-multitoggle-input,
+table.form-table td select[name^="pix"],
+table.form-table td input[name^="pix"] {
+    height: 39px !important;
+}
+
+.pix-form-control {
+    width: 100%;
+    margin-top: 0;
+}
+
+.pix-input-wrapper{
+    display: inline-block;
+    position: relative;
+}
+.pix-multitoggle-input{
+    margin: 3px 5px;
+    display: inline-block;
+    min-width: 300px;
+}
+
+table.form-table td select[name^="pix"] {
+    width: 170px;
+}
+
+.pix-form-control:focus {
+	border-color: #75a5e4;
+	outline: 0;
+}
+
+dt.gallery-icon.landscape a img {
+    width: 78px !important;
+    height: auto !important;
+    border: 0 !important;
+    border-radius: 3px;
+}
+
+.pix-add-field-button{
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pix-add-field-button i{
+    font-size: 22px;
+}
+.pix-delete-value{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -40px;
+    top: 21px;
+    font-size: 14px;
+    width: 28px;
+    height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

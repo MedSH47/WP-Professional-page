@@ -1,0 +1,204 @@
+:root{
+    --pix-header-transparent: 0;
+    --pix-header-menu-transparent: 1;
+    --pix-header-height: 100px;
+    --pix-header-height-levels: 138px;
+    --pix-top-bar-transparent: 0;
+
+    --pix-main-color: #6092ff;
+    --pix-main-color-lighter: #6C9EFF;
+    --pix-main-color-lighter-2x: #78AAFF;
+    --pix-main-color-darker: #487AE7;
+    --pix-main-color-hex: 96,146,255;
+    --pix-gradient-color: #1f3ff2;
+    --pix-gradient-direction-webkit: left;
+    --pix-gradient-direction-o: right;
+    --pix-gradient-direction-moz: right;
+    --pix-gradient-direction: to right;
+    --pix-gradient-reverse-direction-webkit: right;
+    --pix-gradient-reverse-direction-o: left;
+    --pix-gradient-reverse-direction-moz: left;
+    --pix-gradient-reverse-direction: to left;
+    --pix-additional-color: #3a3636;
+    --pix-additional-color-rgb: 58,54,54;
+    --pix-white-color: #ffffff;
+    --pix-black-color: #212121;
+    --pix-black-color-hex: 33,33,33;
+    --pix-black-color-lighter: #393939;
+    --pix-black-color-lighter-2x: #515151;
+
+    --pix-shadow: 0 0px 5px rgba(0,0,0,.1), 0 5px 20px rgba(0,0,0,0.1);
+    --pix-text-shadow: none; /*1px 1px 0 rgba(0,0,0,.18);*/
+
+        --pix-button-color: #6092ff;
+        --pix-button-color-lighter: #78AAFF;
+        --pix-button-color-darker: #6C9EFF;
+        --pix-button-color-hex: 96,146,255;
+
+    --pix-main-font: Jost;
+    --pix-font-size: 18px;
+    --pix-font-size-larger: 20px;
+    --pix-font-size-smaller: 0.8em;
+    --pix-font-line-height: 1.8;
+    --pix-font-line-height-px: 32px;
+    --pix-font-line-height-em: 1.778em;
+    --pix-font-weight: 400;
+    --pix-font-color: #818181;
+    --pix-font-color-light: #ffffff;
+
+    --pix-h1-size: 2.489em;
+    --pix-h2-size: 2.074em;
+    --pix-h3-size: 1.728em;
+    --pix-h4-size: 1.44em;
+    --pix-h5-size: 1.2em;
+    --pix-h6-size: 1em;
+
+    --pix-title-font: Jost;
+    --pix-title-size: 38px;
+    --pix-title-weight: 600;
+    --pix-title-style: normal;
+    --pix-title-color: #000000;
+    --pix-title-letter-spacing: 0;
+
+    --pix-subtitle-font: Jost;
+    --pix-subtitle-size: 20px;
+    --pix-subtitle-weight: 600;
+    --pix-subtitle-style: normal;
+    --pix-subtitle-color: #000000;
+    --pix-subtitle-letter-spacing: 0;
+
+    --pix-hlink-font: Jost;
+    --pix-hlink-size: 20px;
+    --pix-hlink-weight: 600;
+    --pix-hlink-style: normal;
+    --pix-hlink-color: #000000;
+
+    --pix-buttons-border: 1px;
+    --pix-buttons-font: Jost;
+    --pix-buttons-font-size: 18px;
+    --pix-buttons-font-weight: 500;
+    --pix-buttons-font-style: normal;
+    --pix-buttons-text-transform: none;
+    --pix-buttons-letter-spacing: 0px;
+    --pix-buttons-shadow: 0px 5px 15px 0px rgba(0,0,0,0.15);
+
+    --pix-hover-gradient: rgba(0,0,0,.4);
+
+    --pix-tab-overlay-color: #050017;
+    --pix-tab-overlay-gradient: ;
+    --pix-tab-gradient-direction-webkit: right bottom;
+    --pix-tab-gradient-direction-o: top left;
+    --pix-tab-gradient-direction-moz: top left;
+    --pix-tab-gradient-direction: to top left;
+    --pix-tab-overlay-opacity: 0;
+
+    --pix-svg-search: url(http://localhost/project4/wp-content/themes/solutech/images/svg/search-white.svg);
+    --pix-svg-loader: url(http://localhost/project4/wp-content/themes/solutech/images/decor.svg);
+
+    --pix-decor-img: url(http://localhost/project4/wp-content/themes/solutech/images/decor.svg);
+
+
+}
+
+
+html .sep-element{
+	display: none;
+}
+
+
+.pix-header:not(.header-topbar-view) {
+    border-top-width: 1px;
+}
+.pix-header.header-topbar-view .pix-top-bar{
+    border-bottom-width: 1px;
+}
+
+
+
+html .custom-header span.vc_row-overlay{
+	background-color: var(--pix-tab-overlay-color) !important;
+	opacity: var(--pix-tab-overlay-opacity);
+}
+
+
+
+
+
+	html .pix-gradient,
+    html .pix-header-menu.gradient .container,
+    html .pix-header-menu.gradient nav ul li ul.submenu,
+    html .pix-item-review .round,
+    html .pix-item-left .round,
+    html .pix-item-default .round,
+    html .news-card-price__header,
+    html .pix-progress-bar,
+    html .news-card-centered__image .overlay,
+        html .pix-overlay.pix-gradient-color,
+    html .pix-block-content .round.pix-icon-bg-gradient-color
+    {
+		background: var(--pix-main-color); /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(var(--pix-gradient-direction-webkit), var(--pix-main-color), var(--pix-gradient-color)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(var(--pix-gradient-direction-o), var(--pix-main-color), var(--pix-gradient-color)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(var(--pix-gradient-direction-moz), var(--pix-main-color), var(--pix-gradient-color)); /*Fx 3.6-15*/
+		background: linear-gradient(var(--pix-gradient-direction), var(--pix-main-color), var(--pix-gradient-color)); /*Standard*/
+	}
+    
+    
+    html .transparent.pix-icon-gradient .icon span,
+    html .news-item-price-long__price .icon-message span
+    {
+        background: -webkit-linear-gradient(var(--pix-gradient-direction-webkit), var(--pix-main-color), var(--pix-gradient-color)); /*Safari 5.1-6*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+	}
+    
+    html .round.pix-icon-gradient
+    {
+        background: -webkit-linear-gradient(var(--pix-gradient-direction-webkit), var(--pix-main-color), var(--pix-gradient-color)); /*Safari 5.1-6*/
+        background: linear-gradient(var(--pix-gradient-direction), var(--pix-main-color), var(--pix-gradient-color)); /*Standard*/
+    }
+
+	
+
+
+
+
+html .custom-header{
+	padding: 240px 0 260px;
+	margin-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+        /*box-shadow: 0 -18px 18px -18px rgba(0,0,0,.3) inset, 0 18px 18px -18px rgba(0,0,0,.3) inset;*/
+}
+
+html .pix-header.pix-levels.transparent + .custom-header{
+    padding-top: 240px;
+}
+
+html .pix-header.pix-levels.header-topbar-view + .custom-header{
+    padding-top: 290px;
+}
+
+/*html .header-topbar-view + .custom-header{
+    padding-top: 290px;
+}*/
+
+section.pix-page-no-padding{
+    margin-top: -0px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    html .header-topbar-view + .custom-header{
+        padding-top: 240px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    html .header-topbar-view + .custom-header{
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+}
+

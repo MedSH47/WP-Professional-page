@@ -1,0 +1,249 @@
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* RESPONSIVE CSS */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (min-width:1229px) and (max-width:1500px) {
+html .video-box-left {
+	padding: 2% 10% 2%;
+}
+html .video-box-right {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+}
+
+/* 768 x 1024 (Laptop) */
+
+@media (min-width:1022px) and (max-width:1229px) {
+html .video-box-left {
+	padding: 7% 10% 2%;
+}
+html .video-box-right {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+}
+
+/* 768 x 1024 (iPad - Portrait) */
+
+@media (min-width:768px) and (max-width:990px) {
+.header {
+	height: auto;
+	text-align: center;
+}
+html .fa-content {
+	display: inline-block;
+	margin-left: 2%;
+	padding-right: 4%;
+	padding-top: 2%;
+	width: 62%;
+}
+html .video-box-left {
+	padding: 7% 10% 5%;
+}
+html .video-box-right {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+.info-top {
+	margin: 10px;
+	text-align: center;
+}
+.info-top ul {
+	padding: 0;
+}
+.header .navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+.header .yamm, .header .yamm .navbar-nav {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+.header .yamm, .header .yamm .navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+.header .top-cart {
+	float: none;
+	margin: 30px auto 20px auto;
+	position: relative;
+	width: 120px;
+}
+.header .top-cart .qty-top-cart-active {
+	right: 14px;
+	top: -3px;
+}
+html .post .entry-title {
+	margin: 20px 0;
+}
+html .bx-controls {
+	margin-bottom: 30px;
+}
+.carousel-brand .bx-prev, .carousel-brand .bx-next {
+	display: none !important;
+}
+}
+
+/*480 x 640 (small tablet and iPhone)*/
+
+@media (max-width:767px) {
+.header {
+	height: auto;
+	text-align: center;
+}
+html .video-box-left {
+	padding: 7% 10% 5%;
+	width: 100%;
+}
+html .video-box-right {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+	width: 100%;
+}
+.info-top {
+	margin: 10px;
+	text-align: center;
+}
+.info-top ul {
+	padding: 0;
+}
+.header .navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+.header .yamm, .header .yamm .navbar-nav {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+.header .yamm, .header .yamm .navbar-nav > li {
+	display: inline-block;
+	float: none;
+	text-align: left;
+	width: 100%;
+	position: relative;
+}
+.header .top-cart {
+	float: none;
+	margin: 30px auto 20px auto;
+	position: relative;
+	width: 120px;
+}
+.header .top-cart .qty-top-cart-active {
+	right: 14px;
+	top: -3px;
+}
+html .post .entry-title {
+	margin: 20px 0;
+}
+.ver-tabs.horiz-tabs .nav > li {
+	width: 100%;
+}
+.carousel-brand .bx-prev, .carousel-brand .bx-next {
+	display: none !important;
+}
+html .product-grid {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+html .product-grid li {
+	margin: 5%;
+	width: 90%;
+}
+.product-grid li .slider_img {
+	display: none !important;
+}
+.testi-box {
+	display: inline-block;
+	margin: 20px 0;
+}
+.cd-floating-background img {
+	display: none !important;
+}
+.contact-section {
+	height: auto !important;
+}
+html .copy {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+html .footer-absolute .social-box {
+	float: none;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+html .footer-panel .social-links {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+html .footer-panel .social-links li {
+	margin: 10px 0 0;
+}
+html .product-right {
+	padding-bottom: 50px;
+}
+html .product-grid.bxslider li {
+	margin: inherit;
+}
+html .fa-box .fa, {
+ display: block;
+ font-size: 34px !important;
+}
+html .fa-box {
+	margin-left: -6% !important;
+	margin-right: 6% !important;
+	padding: 5% 2% 5% 8% !important;
+	width: 30% !important;
+}
+html .bx-wrapper {
+	margin: 20px auto;
+}
+html .ver-tabs.horiz-tabs .fa-content {
+	display: inline-block;
+	margin-left: 0;
+	padding: 1%;
+	text-align: left;
+	width: 67%;
+}
+html .ver-tabs.horiz-tabs .fa-box {
+	width: 30% !important;
+}
+}
+
+/*320 x 480 (iPhone)*/
+
+@media (max-width:480px) {
+html .section-header .heading {
+	font-size: 18px;
+}
+html .full-width-box::after {
+	width: 40% !important;
+}
+html .icon-line h3 {
+	font-size: 15px !important;
+	padding: 14px 20px;
+}
+html .product-info .nav-tabs > li {
+	margin-right: 0;
+	width: 100%;
+}
+html .person-text {
+	padding-left: 10px;
+	padding-top: 20px;
+	position: relative;
+}
+}

@@ -1,0 +1,3829 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: cutstyle\n"
+"POT-Creation-Date: 2019-12-03 16:54+0300\n"
+"PO-Revision-Date: 2016-12-23 10:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:15
+msgid "The page you are looking for seems to be missing."
+msgstr ""
+
+#: 404.php:18
+msgid "Return to previous page"
+msgstr ""
+
+#: archive.php:32 search.php:29
+msgid "<i class=\"icon-arrow-left\"></i>"
+msgstr ""
+
+#: archive.php:33 search.php:30
+msgid "<i class=\"icon-arrow-right\"></i>"
+msgstr ""
+
+#: archive.php:34 blog-template.php:52 index.php:32 search.php:31
+msgid "&nbsp;"
+msgstr ""
+
+#: blog-template.php:50
+msgid "&lt;"
+msgstr ""
+
+#: blog-template.php:51
+msgid "&gt;"
+msgstr ""
+
+#: comments.php:11
+#, php-format
+msgctxt "comments title"
+msgid "<span>%s</span> Comment"
+msgid_plural "<span>%s</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:26
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:27
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:28
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:48
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: comments.php:52 comments.php:53 vc_templates/vc_maps/vc_common.php:1290
+#: vc_templates/vc_maps/vc_common.php:1420
+msgid "Name"
+msgstr ""
+
+#: comments.php:55 comments.php:56
+msgid "Email"
+msgstr ""
+
+#: comments.php:58 comments.php:59
+msgid "Website"
+msgstr ""
+
+#: comments.php:63
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:64
+#, php-format
+msgid ""
+"<a href=\"%1$s\" aria-label=\"Logged in as %2$s. Edit your profile.\">Logged "
+"in as %2$s</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#: comments.php:65
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:68
+msgid "Comment"
+msgstr ""
+
+#: footer.php:39
+msgid "&copy; 2013-"
+msgstr ""
+
+#: footer.php:39 templates/header/header6.php:223
+msgid "All Rights Reserved"
+msgstr ""
+
+#: footer.php:41
+msgid "By PixTheme"
+msgstr ""
+
+#: footer.php:41
+msgid " Studio"
+msgstr ""
+
+#: index.php:30
+msgid "<i class=\"fas fa-chevron-left\"></i>"
+msgstr ""
+
+#: index.php:31
+msgid "<i class=\"fas fa-chevron-right\"></i>"
+msgstr ""
+
+#: loop.php:13
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:15
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: page.php:32 templates/post-parts/content.php:57
+#: templates/post-single/content.php:36
+msgid "Pages:"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:334
+#: pixtheme/install/plugins.php:148
+msgid "Install Required Plugins"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:335
+#: pixtheme/install/plugins.php:149
+msgid "Install Plugins"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:337
+#: pixtheme/install/plugins.php:150
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:340
+#: pixtheme/install/plugins.php:151
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:343
+#: pixtheme/install/plugins.php:152
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:349
+#: pixtheme/install/plugins.php:153
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:355
+#: pixtheme/install/plugins.php:158
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:367
+#: pixtheme/install/plugins.php:155
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:373
+#: pixtheme/install/plugins.php:156
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:378
+#: pixtheme/install/plugins.php:160
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:388
+#: pixtheme/install/plugins.php:161
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:392
+#: pixtheme/install/plugins.php:162
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:393
+#: pixtheme/admin/class-tgm-plugin-activation.php:920
+#: pixtheme/admin/class-tgm-plugin-activation.php:2626
+#: pixtheme/admin/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:394
+#: pixtheme/admin/class-tgm-plugin-activation.php:3252
+#: pixtheme/install/plugins.php:163
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:395
+#: pixtheme/admin/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:1027
+#: pixtheme/admin/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:1214
+#: pixtheme/admin/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2641
+#: pixtheme/admin/post-fields.php:144
+msgid "Source"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2642
+#: pixtheme/admin/customizer/header.php:28
+msgid "Type"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3602
+#: pixtheme/admin/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3602
+#: pixtheme/admin/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: pixtheme/admin/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: pixtheme/admin/customizer/class.customizer.fonts.php:115
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:6
+#: pixtheme/admin/customizer/header.php:14
+msgid "General Settings"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:13 templates/header/header1.php:36
+#: templates/header/header2.php:94 templates/header/header3.php:41
+#: templates/header/header4.php:37 templates/header/header5.php:37
+#: templates/header/header6.php:39 templates/header/header6.php:42
+#: templates/header/header6.php:124 templates/header/header6.php:127
+#: templates/header/mobile.php:15
+msgid "Logo"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:31
+#: vc_templates/vc_maps/vc_common.php:896
+#: vc_templates/vc_maps/vc_common.php:1284
+#: vc_templates/vc_maps/vc_common.php:1414
+#: vc_templates/vc_maps/vc_common.php:1517
+#: vc_templates/vc_maps/vc_common.php:1725
+#: vc_templates/vc_maps/vc_common.php:2274
+msgid "Image"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:48
+msgid "Max Width"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:49
+msgid "Retina Logo should be 2x large than max width"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:69
+msgid "Min Height"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:70
+msgid "Header Menu height"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:88
+msgid "Logo Text"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:105
+msgid "Mobile Logo"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:118
+#: pixtheme/admin/customizer/header.php:128
+msgid "Colors"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:134
+#: vc_templates/vc_maps/vc_common.php:535
+#: vc_templates/vc_maps/vc_common.php:617
+#: vc_templates/vc_maps/vc_common.php:1381
+msgid "Main"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:151
+#: pixtheme/admin/customizer/general.php:1033
+#: pixtheme/admin/customizer/header.php:250
+#: vc_templates/vc_maps/vc_add_gradient.php:163
+#: vc_templates/vc_maps/vc_add_gradient.php:174
+#: vc_templates/vc_maps/vc_add_gradient.php:192
+#: vc_templates/vc_maps/vc_add_gradient.php:205
+#: vc_templates/vc_maps/vc_add_gradient.php:214
+#: vc_templates/vc_maps/vc_common.php:537
+#: vc_templates/vc_maps/vc_common.php:603
+#: vc_templates/vc_maps/vc_common.php:619
+#: vc_templates/vc_maps/vc_common.php:1383
+msgid "Gradient"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:166
+#: pixtheme/admin/customizer/header.php:794
+msgid "Gradient Direction"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:171
+#: pixtheme/admin/customizer/header.php:799
+#: vc_templates/vc_maps/vc_add_gradient.php:181
+msgid "To Right "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:172
+#: pixtheme/admin/customizer/header.php:800
+#: vc_templates/vc_maps/vc_add_gradient.php:182
+msgid "To Left "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:173
+#: pixtheme/admin/customizer/header.php:801
+#: vc_templates/vc_maps/vc_add_gradient.php:183
+msgid "To Bottom "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:174
+#: pixtheme/admin/customizer/header.php:802
+#: vc_templates/vc_maps/vc_add_gradient.php:184
+msgid "To Top "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:175
+#: pixtheme/admin/customizer/header.php:803
+#: vc_templates/vc_maps/vc_add_gradient.php:185
+msgid "To Bottom Right "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:176
+#: pixtheme/admin/customizer/header.php:804
+#: vc_templates/vc_maps/vc_add_gradient.php:186
+msgid "To Bottom Left "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:177
+#: pixtheme/admin/customizer/header.php:805
+#: vc_templates/vc_maps/vc_add_gradient.php:187
+msgid "To Top Right "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:178
+#: pixtheme/admin/customizer/header.php:806
+#: vc_templates/vc_maps/vc_add_gradient.php:188
+msgid "To Top Left "
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:194
+#: vc_templates/vc_maps/vc_common.php:536
+#: vc_templates/vc_maps/vc_common.php:618
+#: vc_templates/vc_maps/vc_common.php:1382
+msgid "Additional"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:211
+msgid "Black Tone"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:226
+msgid "Theme Tone"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:231
+#: pixtheme/admin/customizer/header.php:857
+#: vc_templates/vc_maps/vc_add_gradient.php:96
+#: vc_templates/vc_maps/vc_add_gradient.php:150
+#: vc_templates/vc_maps/vc_common.php:250
+#: vc_templates/vc_maps/vc_common.php:377
+msgid "Light"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:232
+#: pixtheme/admin/customizer/header.php:858
+#: vc_templates/vc_maps/vc_add_gradient.php:97
+#: vc_templates/vc_maps/vc_add_gradient.php:151
+#: vc_templates/vc_maps/vc_common.php:249
+#: vc_templates/vc_maps/vc_common.php:376
+msgid "Dark"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:247
+msgid "Fonts"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:263
+msgid "Google Fonts Embed"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:264
+msgid ""
+"<a href=\"https://data.true-emotions.studio/images/google_fonts_embed.png\" "
+"target=\"_blank\" data-lightbox=\"embed\">Get Fonts Embed String</a>"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:282
+msgid "Fonts & Titles"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:286
+#: vc_templates/vc_maps/vc_common.php:276
+#: vc_templates/vc_maps/vc_common.php:914
+msgid "Text"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:287
+msgid "H1 H2"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:288
+msgid "H3 H4"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:289 pixtheme/admin/post-fields.php:134
+#: vc_templates/vc_maps/vc_common.php:283
+#: vc_templates/vc_maps/vc_common.php:637
+#: vc_templates/vc_maps/vc_common.php:921
+#: vc_templates/vc_maps/vc_common.php:1010
+#: vc_templates/vc_maps/vc_common.php:1328
+#: vc_templates/vc_maps/vc_common.php:1462
+#: vc_templates/vc_maps/vc_common.php:1619
+#: vc_templates/vc_maps/vc_common.php:2287
+#: vc_templates/vc_maps/vc_common.php:2555
+msgid "Link"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:290
+#: pixtheme/admin/customizer/header.php:370
+#: vc_templates/vc_maps/vc_common.php:268
+#: vc_templates/vc_maps/vc_common.php:649
+#: vc_templates/vc_maps/vc_common.php:1033
+msgid "Button"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:311
+#: pixtheme/admin/customizer/general.php:451
+#: pixtheme/admin/customizer/general.php:570
+#: pixtheme/admin/customizer/general.php:689
+#: pixtheme/admin/customizer/general.php:787
+#: vc_templates/vc_maps/vc_common.php:553
+#: vc_templates/vc_maps/vc_common.php:718
+#: vc_templates/vc_maps/vc_common.php:2510
+msgid "Font"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:329
+#: pixtheme/admin/customizer/general.php:469
+#: pixtheme/admin/customizer/general.php:588
+#: pixtheme/admin/customizer/general.php:707
+#: pixtheme/admin/customizer/general.php:805
+msgid "Weight"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:347
+#: pixtheme/admin/customizer/general.php:487
+#: pixtheme/admin/customizer/general.php:606
+#: pixtheme/admin/customizer/general.php:725
+#: pixtheme/admin/customizer/general.php:823
+#: vc_templates/vc_maps/vc_common.php:192
+msgid "Size"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:367
+msgid "Line height"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:388
+msgid "Ratio"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:412
+#: pixtheme/admin/customizer/general.php:510
+#: pixtheme/admin/customizer/general.php:629
+#: pixtheme/admin/customizer/general.php:768
+#: pixtheme/admin/customizer/general.php:1026
+#: pixtheme/admin/customizer/general.php:1169
+#: vc_templates/vc_maps/vc_add_shadows.php:74
+#: vc_templates/vc_maps/vc_common.php:371
+#: vc_templates/vc_maps/vc_common.php:602
+#: vc_templates/vc_maps/vc_common.php:767
+msgid "Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:432
+msgid "Color Light"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:525
+msgid "Title Style"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:530
+#: pixtheme/admin/customizer/general.php:649
+#: pixtheme/admin/customizer/general.php:748
+#: pixtheme/admin/customizer/general.php:846
+#: pixtheme/admin/customizer/header.php:56
+msgid "Normal"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:531
+#: pixtheme/admin/customizer/general.php:650
+#: pixtheme/admin/customizer/general.php:749
+#: pixtheme/admin/customizer/general.php:847
+msgid "Italic"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:532
+#: pixtheme/admin/customizer/general.php:651
+#: pixtheme/admin/customizer/general.php:750
+#: pixtheme/admin/customizer/general.php:848
+msgid "Oblique"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:547
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:644
+#: pixtheme/admin/customizer/general.php:743
+#: pixtheme/admin/customizer/general.php:841
+#: vc_templates/vc_maps/vc_common.php:416
+#: vc_templates/vc_maps/vc_common.php:1175
+#: vc_templates/vc_maps/vc_common.php:1349
+#: vc_templates/vc_maps/vc_common.php:1849
+#: vc_templates/vc_maps/vc_common.php:2311
+msgid "Style"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:666
+#: pixtheme/admin/customizer/general.php:884
+msgid "Letter Spacing"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:861
+msgid "Text Transform"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:866
+#: vc_templates/vc_maps/vc_add_gradient.php:322
+msgid "None"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:867
+msgid "UPPERCASE"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:868
+msgid "Capitalize"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:869
+msgid "lowercase"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:905
+#: pixtheme/admin/customizer/general.php:939
+#: vc_templates/vc_maps/vc_add_gradient.php:231
+#: vc_templates/vc_maps/vc_add_gradient.php:243
+#: vc_templates/vc_maps/vc_add_gradient.php:255
+#: vc_templates/vc_maps/vc_add_gradient.php:267
+#: vc_templates/vc_maps/vc_add_gradient.php:277
+#: vc_templates/vc_maps/vc_add_gradient.php:289
+#: vc_templates/vc_maps/vc_add_gradient.php:301
+#: vc_templates/vc_maps/vc_add_gradient.php:313
+#: vc_templates/vc_maps/vc_add_gradient.php:325
+msgid "Decor"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:918
+#: vc_templates/vc_maps/vc_common.php:222
+msgid "Show Decor"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:923
+#: pixtheme/admin/customizer/general.php:1073
+#: pixtheme/admin/customizer/header.php:77
+#: pixtheme/admin/customizer/header.php:746
+#: pixtheme/admin/customizer/header.php:941
+#: vc_templates/vc_maps/vc_add_params.php:14
+#: vc_templates/vc_maps/vc_add_params.php:52
+#: vc_templates/vc_maps/vc_add_params.php:87
+msgid "Yes"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:924
+#: pixtheme/admin/customizer/general.php:1074
+#: pixtheme/admin/customizer/header.php:76
+#: pixtheme/admin/customizer/header.php:745
+#: pixtheme/admin/customizer/header.php:940
+#: vc_templates/vc_maps/vc_common.php:1227
+#: vc_templates/vc_maps/vc_common.php:2183
+msgid "No"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:956
+msgid "Width"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:976
+#: vc_templates/vc_maps/vc_add_gradient.php:235
+#: vc_templates/vc_maps/vc_add_gradient.php:281
+#: vc_templates/vc_maps/vc_common.php:1542
+msgid "Height"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:993
+msgid "Buttons"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1006
+#: vc_templates/vc_maps/vc_common.php:121
+#: vc_templates/vc_maps/vc_common.php:297
+msgid "Shape"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1011
+#: pixtheme/admin/customizer/general.php:1222
+#: vc_templates/vc_maps/vc_add_gradient.php:82
+#: vc_templates/vc_maps/vc_common.php:130
+#: vc_templates/vc_maps/vc_common.php:302
+#: vc_templates/vc_maps/vc_common.php:456
+#: vc_templates/vc_maps/vc_common.php:884
+#: vc_templates/vc_maps/vc_common.php:1194
+#: vc_templates/vc_maps/vc_common.php:1243
+#: vc_templates/vc_maps/vc_common.php:1272
+#: vc_templates/vc_maps/vc_common.php:1369
+#: vc_templates/vc_maps/vc_common.php:1533
+#: vc_templates/vc_maps/vc_common.php:1736
+#: vc_templates/vc_maps/vc_common.php:2030
+#: vc_templates/vc_maps/vc_common.php:2053
+#: vc_templates/vc_maps/vc_common.php:2164
+#: vc_templates/vc_maps/vc_common.php:2199
+#: vc_templates/vc_maps/vc_common.php:2367
+msgid "Square"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1012
+#: pixtheme/admin/customizer/general.php:1223
+#: vc_templates/vc_maps/vc_add_gradient.php:83
+#: vc_templates/vc_maps/vc_common.php:131
+#: vc_templates/vc_maps/vc_common.php:303
+#: vc_templates/vc_maps/vc_common.php:457
+#: vc_templates/vc_maps/vc_common.php:885
+#: vc_templates/vc_maps/vc_common.php:1195
+#: vc_templates/vc_maps/vc_common.php:1273
+#: vc_templates/vc_maps/vc_common.php:1370
+#: vc_templates/vc_maps/vc_common.php:1534
+#: vc_templates/vc_maps/vc_common.php:1737
+#: vc_templates/vc_maps/vc_common.php:2031
+#: vc_templates/vc_maps/vc_common.php:2165
+#: vc_templates/vc_maps/vc_common.php:2368
+msgid "Rounded"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1013
+#: pixtheme/admin/customizer/general.php:1224
+#: vc_templates/vc_maps/vc_add_gradient.php:84
+#: vc_templates/vc_maps/vc_common.php:132
+#: vc_templates/vc_maps/vc_common.php:304
+#: vc_templates/vc_maps/vc_common.php:458
+#: vc_templates/vc_maps/vc_common.php:592
+#: vc_templates/vc_maps/vc_common.php:886
+#: vc_templates/vc_maps/vc_common.php:1196
+#: vc_templates/vc_maps/vc_common.php:1274
+#: vc_templates/vc_maps/vc_common.php:1371
+#: vc_templates/vc_maps/vc_common.php:1535
+#: vc_templates/vc_maps/vc_common.php:1738
+#: vc_templates/vc_maps/vc_common.php:2032
+#: vc_templates/vc_maps/vc_common.php:2166
+#: vc_templates/vc_maps/vc_common.php:2369
+msgid "Round"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1031
+#: pixtheme/admin/customizer/header.php:248 pixtheme/admin/post-fields.php:202
+msgid "Main Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1032
+#: pixtheme/admin/customizer/header.php:249
+msgid "Additional Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1034
+#: pixtheme/admin/customizer/header.php:147
+#: pixtheme/admin/customizer/header.php:186
+#: pixtheme/admin/customizer/header.php:246
+#: vc_templates/vc_maps/vc_common.php:621
+msgid "White"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1035
+#: pixtheme/admin/customizer/header.php:148
+#: pixtheme/admin/customizer/header.php:187
+#: pixtheme/admin/customizer/header.php:247
+#: vc_templates/vc_maps/vc_common.php:538
+#: vc_templates/vc_maps/vc_common.php:620
+#: vc_templates/vc_maps/vc_common.php:1384
+msgid "Black"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1050
+msgid "Border Width"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1068
+msgid "Shadow"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1089
+#: pixtheme/admin/customizer/header.php:702
+#: vc_templates/vc_maps/vc_add_shadows.php:34
+msgid "Horizontal Position"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1109
+#: pixtheme/admin/customizer/header.php:722
+#: vc_templates/vc_maps/vc_add_shadows.php:44
+msgid "Vertical Position"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1129
+#: vc_templates/vc_maps/vc_add_shadows.php:54
+msgid "Blur"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1149
+#: vc_templates/vc_maps/vc_add_shadows.php:64
+msgid "Spread"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1186
+#: vc_templates/vc_maps/vc_add_gradient.php:210
+#: vc_templates/vc_maps/vc_add_shadows.php:81
+msgid "Opacity"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1204
+msgid "Other"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1217
+#: vc_templates/vc_maps/vc_common.php:879
+#: vc_templates/vc_maps/vc_common.php:1189
+#: vc_templates/vc_maps/vc_common.php:1267
+#: vc_templates/vc_maps/vc_common.php:1364
+#: vc_templates/vc_maps/vc_common.php:1528
+#: vc_templates/vc_maps/vc_common.php:1731
+#: vc_templates/vc_maps/vc_common.php:2025
+#: vc_templates/vc_maps/vc_common.php:2159
+#: vc_templates/vc_maps/vc_common.php:2362
+msgid "Boxes Shape"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1237
+msgid "Page Loader"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1242
+#: pixtheme/admin/customizer/header.php:225
+#: pixtheme/admin/customizer/header.php:300
+#: pixtheme/admin/customizer/header.php:319
+#: pixtheme/admin/customizer/header.php:338
+#: pixtheme/admin/customizer/header.php:357
+#: pixtheme/admin/customizer/header.php:376
+#: pixtheme/admin/customizer/responsive.php:25
+#: pixtheme/admin/customizer/services.php:41
+#: pixtheme/admin/customizer/services.php:53
+#: vc_templates/vc_maps/vc_add_gradient.php:133
+msgid "Off"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1243
+msgid "Use on main"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1244
+msgid "Use on all pages"
+msgstr ""
+
+#: pixtheme/admin/customizer/general.php:1259
+msgid "Loader Image"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:33 pixtheme/admin/post-fields.php:389
+#: vc_templates/vc_maps/vc_add_gradient.php:95
+#: vc_templates/vc_maps/vc_add_gradient.php:149
+#: vc_templates/vc_maps/vc_common.php:196
+msgid "Default"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:34
+msgid "Centered Logo"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:35
+msgid "Top Logo (2 levels)"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:36
+msgid "Top Info (2 levels)"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:37
+msgid "Search (2 levels)"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:51
+msgid "Layout"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:57
+#: pixtheme/admin/customizer/header.php:96
+msgid "Boxed"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:58
+#: pixtheme/admin/customizer/header.php:97
+#: vc_templates/vc_maps/vc_common.php:860
+msgid "Full Width"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:71
+msgid "Sticky"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:78
+msgid "On Up Scroll"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:91
+msgid "Sticky Layout"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:110
+msgid "Menu Position"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:116
+#: vc_templates/vc_maps/vc_add_gradient.php:136
+#: vc_templates/vc_maps/vc_common.php:216
+#: vc_templates/vc_maps/vc_common.php:389
+#: vc_templates/vc_maps/vc_common.php:470
+#: vc_templates/vc_maps/vc_common.php:485
+#: vc_templates/vc_maps/vc_common.php:757
+#: vc_templates/vc_maps/vc_common.php:859
+#: vc_templates/vc_maps/vc_common.php:1508
+#: vc_templates/vc_maps/vc_common.php:1867
+#: vc_templates/vc_maps/vc_common.php:1936
+msgid "Right"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:117
+#: vc_templates/vc_maps/vc_add_gradient.php:134
+#: vc_templates/vc_maps/vc_common.php:214
+#: vc_templates/vc_maps/vc_common.php:387
+#: vc_templates/vc_maps/vc_common.php:468
+#: vc_templates/vc_maps/vc_common.php:484
+#: vc_templates/vc_maps/vc_common.php:755
+#: vc_templates/vc_maps/vc_common.php:857
+#: vc_templates/vc_maps/vc_common.php:1506
+#: vc_templates/vc_maps/vc_common.php:1865
+#: vc_templates/vc_maps/vc_common.php:1934
+msgid "Left"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:118
+#: vc_templates/vc_maps/vc_add_gradient.php:135
+#: vc_templates/vc_maps/vc_common.php:215
+#: vc_templates/vc_maps/vc_common.php:388
+#: vc_templates/vc_maps/vc_common.php:469
+#: vc_templates/vc_maps/vc_common.php:858
+#: vc_templates/vc_maps/vc_common.php:1507
+#: vc_templates/vc_maps/vc_common.php:1866
+#: vc_templates/vc_maps/vc_common.php:1935
+msgid "Center"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:142
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:163
+msgid "Top Bar Transparent"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:181
+#: vc_templates/vc_maps/vc_common.php:613
+msgid "Background Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:202
+#: vc_templates/vc_maps/vc_common.php:314
+#: vc_templates/vc_maps/vc_common.php:591
+msgid "Transparent"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:220
+msgid "Borders"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:226
+#: vc_templates/vc_maps/vc_common.php:671
+#: vc_templates/vc_maps/vc_common.php:756
+#: vc_templates/vc_maps/vc_common.php:1947
+msgid "Top"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:227
+#: vc_templates/vc_maps/vc_common.php:673
+msgid "Bottom"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:228
+msgid "Both"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:241
+msgid "Menu Background Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:265
+msgid "Menu Transparent"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:280
+msgid "Elements"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:294
+msgid "Top Bar"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:299
+#: pixtheme/admin/customizer/header.php:318
+#: pixtheme/admin/customizer/header.php:337
+#: pixtheme/admin/customizer/header.php:356
+#: pixtheme/admin/customizer/header.php:375
+#: pixtheme/admin/customizer/responsive.php:26
+#: pixtheme/admin/customizer/services.php:40
+#: pixtheme/admin/customizer/services.php:52
+msgid "On"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:313 searchform.php:7
+#: templates/header/header4.php:122 templates/header/header5.php:122
+#: vc_templates/vc_maps/vc_common.php:1230
+#: vc_templates/vc_maps/vc_common.php:2186
+msgid "Search"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:332
+msgid "Minicart"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:351
+msgid "Socials"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:386
+msgid "Info Texts"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:400
+msgid "Phone"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:415
+msgid "E-mail"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:430
+msgid "Address"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:445
+#: vc_templates/vc_maps/vc_common.php:2386
+#: vc_templates/vc_maps/vc_common.php:2470
+msgid "Button Text"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:460
+msgid "Button Link"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:479
+msgid "Info Sections"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:483
+#: pixtheme/admin/customizer/header.php:530
+msgid "Info 1"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:484
+#: pixtheme/admin/customizer/header.php:573
+msgid "Info 2"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:485
+#: pixtheme/admin/customizer/header.php:616
+msgid "Info 3"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:502
+msgid "Icon 1"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:516
+msgid "Title 1"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:545
+msgid "Icon 2"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:559
+msgid "Title 2"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:588
+msgid "Icon 3"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:602
+msgid "Title 3"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:628
+#: pixtheme/admin/customizer/header.php:644
+#: vc_templates/vc_maps/vc_common.php:429
+msgid "Background Image"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:659
+msgid "Background Size"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:664
+msgid "Cover"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:665
+msgid "Contain"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:666
+msgid "Auto"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:679
+msgid "Background Repeat"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:684
+msgid "No Repeat"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:685
+msgid "Repeat"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:686
+msgid "Repeat X"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:687
+msgid "Repeat Y"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:740
+msgid "Fixed Image"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:761
+#: vc_templates/vc_maps/vc_common.php:1553
+msgid "Overlay Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:778
+msgid "Gradient Color"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:779
+msgid "Set this color for gradient overlay"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:822
+msgid "Overlay Opacity"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:838
+msgid "Title & Breadcrumbs"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:852
+#: vc_templates/vc_maps/vc_common.php:245
+msgid "Text Tone"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:872
+msgid "Title & Breadcrumbs Position"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:877
+msgid "Both Center"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:878
+msgid "Both Left"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:879
+msgid "Both Right"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:880
+msgid "Title Left Breadcrumbs Right"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:881
+msgid "Title Right Breadcrumbs Left"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:894
+msgid "Title & Breadcrumbs Show"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:899
+msgid "Show Both"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:900
+msgid "Hide Title"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:901
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:902
+msgid "Hide Both"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:915
+msgid "Breadcrumbs Vertical Position"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:916
+msgid "Show breadcrumbs over or under title"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:921
+msgid "Under"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:922
+msgid "Over"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:935
+msgid "Breadcrumbs Show Current Page"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:956
+msgid "Header Padding Top"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:976
+msgid "Header Padding Bottom"
+msgstr ""
+
+#: pixtheme/admin/customizer/header.php:996
+msgid "Header Margin Bottom"
+msgstr ""
+
+#: pixtheme/admin/customizer/responsive.php:6
+#: pixtheme/admin/customizer/responsive.php:20
+msgid "Responsive"
+msgstr ""
+
+#: pixtheme/admin/customizer/services.php:5 vc_templates/common_isotope.php:10
+#: vc_templates/vc_maps/vc_common.php:73
+msgid "Services"
+msgstr ""
+
+#: pixtheme/admin/customizer/services.php:29
+msgid "Select Page For All Services"
+msgstr ""
+
+#: pixtheme/admin/customizer/services.php:35
+msgid "Display Related Services"
+msgstr ""
+
+#: pixtheme/admin/customizer/services.php:47
+msgid "Display Share on Services"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:5
+msgid "Social"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:79
+msgid "Facebook URL"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:89
+msgid "Twitter URL"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:99
+msgid "Instagram URL"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:109
+msgid "YouTube URL"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:119
+msgid "Pinterest URL"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:129
+msgid "Custom Icon 1"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:139
+msgid "Custom URL 1"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:149
+msgid "Custom Icon 2"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:159
+msgid "Custom URL 2"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:169
+msgid "Custom Icon 3"
+msgstr ""
+
+#: pixtheme/admin/customizer/social.php:179
+msgid "Custom URL 3"
+msgstr ""
+
+#: pixtheme/admin/functions.php:138 pixtheme/admin/post-fields.php:327
+msgid "No Footer"
+msgstr ""
+
+#: pixtheme/admin/index.php:27
+msgid "Choose or Upload an Image"
+msgstr ""
+
+#: pixtheme/admin/index.php:28
+msgid "Use this image"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:21
+msgid "Object"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:24 vc_templates/vc_maps/vc_add_params.php:134
+msgid "Year"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:27
+msgid "Security Level"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:30
+msgid "Project Place"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:109
+msgid "Manage gallery"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:109
+msgid "Manage"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:110
+msgid "Clear gallery"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:110
+msgid "Clear"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:121
+msgid "Gallery"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:132 vc_templates/vc_maps/vc_common.php:1478
+msgid "Video"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:140
+msgid "Quote"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:142 vc_templates/vc_maps/vc_common.php:238
+#: vc_templates/vc_maps/vc_common.php:683
+#: vc_templates/vc_maps/vc_common.php:801
+#: vc_templates/vc_maps/vc_common.php:1003
+#: vc_templates/vc_maps/vc_common.php:1089
+#: vc_templates/vc_maps/vc_common.php:1574
+msgid "Content"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:207
+msgid "Header Logo"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:215
+msgid "Logo Light"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:257
+msgid "Header On/Off"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:308 pixtheme/admin/post-fields.php:322
+#: pixtheme/admin/post-fields.php:334
+msgid "Global Settings"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:331 vc_templates/vc_maps/vc_common.php:1948
+msgid "Sidebar"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:335
+msgid "Without Sidebar"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:336
+msgid "Right Sidebar"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:337
+msgid "Left Sidebar"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:341
+msgid "Sidebar Content"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:358 vc_templates/vc_maps/vc_common.php:2398
+msgid "Footer"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:385
+msgid "Woocommerce Layout"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:388 vc_templates/vc_maps/vc_common.php:129
+#: vc_templates/vc_maps/vc_common.php:301
+#: vc_templates/vc_maps/vc_common.php:455
+#: vc_templates/vc_maps/vc_common.php:883
+#: vc_templates/vc_maps/vc_common.php:1193
+#: vc_templates/vc_maps/vc_common.php:1271
+#: vc_templates/vc_maps/vc_common.php:1368
+#: vc_templates/vc_maps/vc_common.php:1532
+#: vc_templates/vc_maps/vc_common.php:1735
+#: vc_templates/vc_maps/vc_common.php:2029
+#: vc_templates/vc_maps/vc_common.php:2163
+#: vc_templates/vc_maps/vc_common.php:2366
+msgid "Global"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:390
+msgid "Hover Info"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:414
+msgid "Booking Disable"
+msgstr ""
+
+#: pixtheme/admin/post-fields.php:415 vc_templates/vc_maps/vc_common.php:8
+msgid "Default Calendar"
+msgstr ""
+
+#: pixtheme/functions/comment_walker.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: pixtheme/functions/comment_walker.php:36
+#, php-format
+msgid "<h3 class=\"fn\">%s</h3>"
+msgstr ""
+
+#: pixtheme/functions/comment_walker.php:47
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: pixtheme/functions/comment_walker.php:47
+msgid "(Edit)"
+msgstr ""
+
+#: pixtheme/functions/functions.php:16
+msgid "Please, set Primary Menu."
+msgstr ""
+
+#: pixtheme/functions/functions.php:89
+msgid "Read More"
+msgstr ""
+
+#: pixtheme/functions/functions.php:149
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ""
+
+#: pixtheme/functions/functions.php:248
+msgid "Home"
+msgstr ""
+
+#: pixtheme/functions/functions.php:249
+#, php-format
+msgid "Archive \"%s\""
+msgstr ""
+
+#: pixtheme/functions/functions.php:250
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: pixtheme/functions/functions.php:251
+#, php-format
+msgid "Posts with tag \"%s\""
+msgstr ""
+
+#: pixtheme/functions/functions.php:252
+#, php-format
+msgid "%s posts"
+msgstr ""
+
+#: pixtheme/functions/functions.php:253
+msgid "Error 404"
+msgstr ""
+
+#: pixtheme/functions/functions.php:254
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: pixtheme/functions/functions.php:255
+#, php-format
+msgid "Comments page %s"
+msgstr ""
+
+#: pixtheme/functions/functions.php:395
+msgid "No Categories"
+msgstr ""
+
+#: pixtheme/functions/index.php:106
+msgid "Primary Navigation"
+msgstr ""
+
+#: pixtheme/functions/index.php:107
+msgid "Primary Left Navigation"
+msgstr ""
+
+#: pixtheme/functions/index.php:108
+msgid "Primary Right Navigation"
+msgstr ""
+
+#: pixtheme/functions/index.php:109
+msgid "Top Navigation"
+msgstr ""
+
+#: pixtheme/functions/index.php:110
+msgid "Footer Navigation"
+msgstr ""
+
+#: pixtheme/functions/index.php:111
+msgid "Mobile Navigation"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:13
+msgid "WP Default Sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:22
+msgid "Blog Sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:32
+msgid "Team Sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:43
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:54
+msgid "Services Sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:64
+msgid "Shop sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:73
+msgid "Product sidebar"
+msgstr ""
+
+#: pixtheme/functions/sidebars.php:82
+msgid "Custom Area"
+msgstr ""
+
+#: pixtheme/install/import.php:6
+msgid "Cyber, CCTV, Bodyguard, Hacking"
+msgstr ""
+
+#: pixtheme/install/import.php:14
+msgid "Digital security"
+msgstr ""
+
+#: pixtheme/install/import.php:22
+msgid "Defender"
+msgstr ""
+
+#: pixtheme/install/plugins.php:21
+msgid "WooCommerce"
+msgstr ""
+
+#: pixtheme/install/plugins.php:27 vc_templates/vc_maps/vc_common.php:836
+msgid "Contact Form 7"
+msgstr ""
+
+#: pixtheme/install/plugins.php:33
+msgid "Mailchimp"
+msgstr ""
+
+#: pixtheme/install/plugins.php:39
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: pixtheme/install/plugins.php:45
+msgid "Wordpress Importer"
+msgstr ""
+
+#: pixtheme/install/plugins.php:51
+msgid "One Click Demo Import"
+msgstr ""
+
+#: pixtheme/install/plugins.php:57
+msgid "SVG Support"
+msgstr ""
+
+#: pixtheme/install/plugins.php:63
+msgid "Simple Page Ordering"
+msgstr ""
+
+#: pixtheme/install/plugins.php:69
+msgid "Category Order and Taxonomy Terms Order"
+msgstr ""
+
+#: pixtheme/install/plugins.php:79
+msgid "Revolution Slider"
+msgstr ""
+
+#: pixtheme/install/plugins.php:89
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: pixtheme/install/plugins.php:99
+msgid "Booked Appointments"
+msgstr ""
+
+#: pixtheme/install/plugins.php:109
+msgid "Pix-Settings"
+msgstr ""
+
+#: pixtheme/install/plugins.php:119
+msgid "Envato Market"
+msgstr ""
+
+#: pixtheme/install/plugins.php:154
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/install/plugins.php:157
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/install/plugins.php:159
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixtheme/install/plugins.php:164
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: search.php:37
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:39
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single-pix-portfolio.php:36
+msgid "Related Posts"
+msgstr ""
+
+#: single-pix-portfolio.php:122 single-pix-team.php:125
+msgid "Previous"
+msgstr ""
+
+#: single-pix-portfolio.php:130 single-pix-team.php:133
+msgid "Next"
+msgstr ""
+
+#: single-pix-team.php:39
+msgid "Our Doctors"
+msgstr ""
+
+#: templates/header/bg_image.php:115
+msgid "404"
+msgstr ""
+
+#: templates/header/bg_image.php:117
+msgid "Posts"
+msgstr ""
+
+#: templates/header/header1.php:73 templates/header/header_top.php:50
+msgid "Test Drive"
+msgstr ""
+
+#: templates/header/header3.php:64 templates/header/header4.php:75
+#: templates/header/header4.php:112 templates/header/header5.php:75
+#: templates/header/header5.php:112
+msgid "Booking"
+msgstr ""
+
+#: templates/header/header6.php:223
+msgid "&copy; 2013-2018 "
+msgstr ""
+
+#: templates/portfolio/custom.php:14
+msgid "Specialty"
+msgstr ""
+
+#: templates/portfolio/custom.php:15
+msgid "Graduation"
+msgstr ""
+
+#: templates/portfolio/custom.php:16
+msgid "Length of Work"
+msgstr ""
+
+#: templates/portfolio/custom.php:17
+msgid "Work Place"
+msgstr ""
+
+#: templates/post-parts/blog-video.php:19
+msgid "Play"
+msgstr ""
+
+#: templates/post-parts/content.php:34
+msgid "Post a Comment"
+msgstr ""
+
+#: templates/post-parts/content.php:34 vc_templates/common_posts_block.php:93
+msgid "1 comment"
+msgstr ""
+
+#: templates/post-parts/content.php:34
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: templates/post-single/content.php:71
+msgid "next"
+msgstr ""
+
+#: templates/post-single/content.php:72
+msgid "previous"
+msgstr ""
+
+#: vc_templates/common_appointment.php:46
+msgid "Select Speciality"
+msgstr ""
+
+#: vc_templates/common_carousel.php:131 vc_templates/common_isotope.php:9
+#: vc_templates/vc_maps/vc_common.php:1962
+msgid "All"
+msgstr ""
+
+#: vc_templates/common_carousel.php:222 vc_templates/common_isotope.php:217
+#: vc_templates/common_isotope.php:259 vc_templates/common_isotope.php:313
+msgid "sale"
+msgstr ""
+
+#: vc_templates/common_points.php:14 vc_templates/vc_maps/vc_common.php:1756
+msgid "Points"
+msgstr ""
+
+#: vc_templates/common_posts_block.php:89
+msgid "No comments"
+msgstr ""
+
+#: vc_templates/common_posts_block.php:91
+msgid " comments"
+msgstr ""
+
+#: vc_templates/common_services_cat.php:21
+msgid ""
+"No departments selected. To fix this, please login to your WP Admin area and "
+"set the departments you want to show by editing this shortcode and setting "
+"one or more departments in the multi checkbox field \"Departments\"."
+msgstr ""
+
+#: vc_templates/common_video.php:32
+msgid "Watch the Video"
+msgstr ""
+
+#: vc_templates/common_woocommerce.php:24
+msgid ""
+"No categories selected. To fix this, please login to your WP Admin area and "
+"set the categories you want to show by editing this shortcode and setting "
+"one or more categories in the multi checkbox field \"Categories\"."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:8
+#: vc_templates/vc_maps/vc_add_animate.php:14
+#: vc_templates/vc_maps/vc_add_animate.php:17
+#: vc_templates/vc_maps/vc_add_animate.php:30
+#: vc_templates/vc_maps/vc_add_animate.php:43
+#: vc_templates/vc_maps/vc_add_animate.php:56
+#: vc_templates/vc_maps/vc_add_animate.php:69
+#: vc_templates/vc_maps/vc_add_animate.php:77
+#: vc_templates/vc_maps/vc_add_animate.php:80
+#: vc_templates/vc_maps/vc_add_animate.php:93
+#: vc_templates/vc_maps/vc_add_animate.php:106
+#: vc_templates/vc_maps/vc_add_animate.php:119
+#: vc_templates/vc_maps/vc_add_animate.php:132
+#: vc_templates/vc_maps/vc_add_animate.php:145
+#: vc_templates/vc_maps/vc_add_animate.php:158
+msgid "Animation"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:22
+#: vc_templates/vc_maps/vc_add_animate.php:111
+msgid "Duration"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:25
+#: vc_templates/vc_maps/vc_add_animate.php:114
+msgid "Change the animation duration in seconds."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:35
+#: vc_templates/vc_maps/vc_add_animate.php:124
+msgid "Delay"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:38
+#: vc_templates/vc_maps/vc_add_animate.php:127
+msgid "Delay before the animation starts in seconds."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:48
+#: vc_templates/vc_maps/vc_add_animate.php:137
+msgid "Offset"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:51
+#: vc_templates/vc_maps/vc_add_animate.php:140
+msgid ""
+"Distance to start the animation (related to the browser bottom) in pixels."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:61
+#: vc_templates/vc_maps/vc_add_animate.php:150
+msgid "Iteration"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:64
+#: vc_templates/vc_maps/vc_add_animate.php:153
+msgid "Number of times the animation is repeated."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:85
+msgid "Items in Group"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:88
+msgid "Items number in animated group."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:98
+msgid "Group Delay Offset"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_animate.php:101
+msgid "Offset delay before the next group animation starts in seconds."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:6
+#: vc_templates/vc_maps/vc_add_carousel.php:10
+#: vc_templates/vc_maps/vc_add_carousel.php:34
+#: vc_templates/vc_maps/vc_add_carousel.php:47
+#: vc_templates/vc_maps/vc_add_carousel.php:60
+#: vc_templates/vc_maps/vc_add_carousel.php:73
+#: vc_templates/vc_maps/vc_add_carousel.php:86
+#: vc_templates/vc_maps/vc_add_carousel.php:99
+#: vc_templates/vc_maps/vc_add_carousel.php:112
+#: vc_templates/vc_maps/vc_add_carousel.php:125
+#: vc_templates/vc_maps/vc_add_carousel.php:138
+#: vc_templates/vc_maps/vc_add_carousel.php:151
+#: vc_templates/vc_maps/vc_add_carousel.php:168
+#: vc_templates/vc_maps/vc_add_carousel.php:179
+#: vc_templates/vc_maps/vc_add_carousel.php:196
+#: vc_templates/vc_maps/vc_common.php:2073
+msgid "Carousel"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:14
+msgid "Items per Page"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:18
+#: vc_templates/vc_maps/vc_common.php:2131
+msgid "1"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:19
+#: vc_templates/vc_maps/vc_common.php:1999
+#: vc_templates/vc_maps/vc_common.php:2132
+msgid "2"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:20
+#: vc_templates/vc_maps/vc_common.php:2000
+#: vc_templates/vc_maps/vc_common.php:2133
+msgid "3"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:21
+#: vc_templates/vc_maps/vc_common.php:2001
+#: vc_templates/vc_maps/vc_common.php:2134
+msgid "4"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:22
+#: vc_templates/vc_maps/vc_common.php:2002
+#: vc_templates/vc_maps/vc_common.php:2135
+msgid "5"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:23
+#: vc_templates/vc_maps/vc_common.php:2003
+#: vc_templates/vc_maps/vc_common.php:2136
+msgid "6"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:24
+#: vc_templates/vc_maps/vc_common.php:2137
+msgid "7"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:25
+#: vc_templates/vc_maps/vc_common.php:2004
+#: vc_templates/vc_maps/vc_common.php:2138
+msgid "8"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:26
+msgid "9"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:27
+msgid "10"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:38
+msgid "Pagination"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:41
+msgid "Pagination dots ..."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:51
+#: vc_templates/vc_maps/vc_common.php:2104
+msgid "Navigation"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:54
+msgid "Navigation arrows < >"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:64
+msgid "Loop"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:67
+msgid "Infinity loop"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:77
+msgid "Margin"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:80
+msgid "margin-right(px) on item"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:90
+#: vc_templates/vc_maps/vc_add_carousel.php:129
+msgid "on Tablet"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:103
+#: vc_templates/vc_maps/vc_add_carousel.php:142
+msgid "on Mobile"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:116
+msgid "Padding"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:119
+msgid "Padding left and right on stage"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:155
+msgid "Speed"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:172
+msgid "Autoplay"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_carousel.php:183
+msgid "Autoplay Speed"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:8
+#: vc_templates/vc_maps/vc_add_gradient.php:44
+msgid "Padding Top"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:12
+#: vc_templates/vc_maps/vc_add_gradient.php:29
+#: vc_templates/vc_maps/vc_add_gradient.php:48
+#: vc_templates/vc_maps/vc_add_gradient.php:64
+#: vc_templates/vc_maps/vc_common.php:519
+msgid "No Padding"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:13
+#: vc_templates/vc_maps/vc_add_gradient.php:30
+#: vc_templates/vc_maps/vc_add_gradient.php:49
+#: vc_templates/vc_maps/vc_add_gradient.php:65
+#: vc_templates/vc_maps/vc_common.php:329
+#: vc_templates/vc_maps/vc_common.php:346
+#: vc_templates/vc_maps/vc_common.php:363
+#: vc_templates/vc_maps/vc_common.php:578
+#: vc_templates/vc_maps/vc_common.php:742
+msgid "S"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:14
+#: vc_templates/vc_maps/vc_add_gradient.php:31
+#: vc_templates/vc_maps/vc_add_gradient.php:50
+#: vc_templates/vc_maps/vc_add_gradient.php:66
+#: vc_templates/vc_maps/vc_common.php:330
+#: vc_templates/vc_maps/vc_common.php:347
+#: vc_templates/vc_maps/vc_common.php:364
+#: vc_templates/vc_maps/vc_common.php:579
+#: vc_templates/vc_maps/vc_common.php:743
+msgid "M"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:15
+#: vc_templates/vc_maps/vc_add_gradient.php:32
+#: vc_templates/vc_maps/vc_add_gradient.php:51
+#: vc_templates/vc_maps/vc_add_gradient.php:67
+#: vc_templates/vc_maps/vc_common.php:331
+#: vc_templates/vc_maps/vc_common.php:348
+#: vc_templates/vc_maps/vc_common.php:365
+#: vc_templates/vc_maps/vc_common.php:580
+#: vc_templates/vc_maps/vc_common.php:744
+msgid "L"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:16
+#: vc_templates/vc_maps/vc_add_gradient.php:33
+#: vc_templates/vc_maps/vc_add_gradient.php:52
+#: vc_templates/vc_maps/vc_add_gradient.php:68
+#: vc_templates/vc_maps/vc_common.php:332
+#: vc_templates/vc_maps/vc_common.php:349
+#: vc_templates/vc_maps/vc_common.php:366
+#: vc_templates/vc_maps/vc_common.php:581
+#: vc_templates/vc_maps/vc_common.php:745
+msgid "XL"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:18
+#: vc_templates/vc_maps/vc_add_gradient.php:35
+#: vc_templates/vc_maps/vc_add_gradient.php:54
+#: vc_templates/vc_maps/vc_add_gradient.php:70
+#: vc_templates/vc_maps/vc_add_gradient.php:86
+#: vc_templates/vc_maps/vc_add_gradient.php:99
+#: vc_templates/vc_maps/vc_add_gradient.php:107
+#: vc_templates/vc_maps/vc_add_gradient.php:120
+#: vc_templates/vc_maps/vc_add_gradient.php:139
+#: vc_templates/vc_maps/vc_add_gradient.php:153
+msgid "PixSettings"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:25
+#: vc_templates/vc_maps/vc_add_gradient.php:60
+msgid "Padding Bottom"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:78
+msgid "Container Shape"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:91
+#: vc_templates/vc_maps/vc_add_gradient.php:145
+msgid "Text Color"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:104
+msgid "Overflow Visible"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:112
+msgid "Top offset"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:115
+msgid "The value can be negative (example: -50px)"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:129
+msgid "Not Stretch Content Alignment"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:138
+msgid ""
+"If you don't want to stretch content in column with row setting 'Stretch row "
+"and content'."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:170
+msgid "Color For Gradient"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:178
+msgid "Direction"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:189
+msgid "Angle "
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:197
+msgid "Angle Direction"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:200
+msgid "Values -360 - 360"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:213
+#: vc_templates/vc_maps/vc_add_gradient.php:250
+#: vc_templates/vc_maps/vc_add_gradient.php:296
+msgid "Values 0.01 - 0.99"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:227
+msgid "Show Top Decor"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:230
+msgid "Show decor at the top of the section."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:238
+#: vc_templates/vc_maps/vc_add_gradient.php:284
+msgid "Values 0 - 300"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:247
+msgid "Top Decor Opacity"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:259
+msgid "Top Decor Points"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:262
+#: vc_templates/vc_maps/vc_add_gradient.php:308
+msgid "Example: 0,100 50,50 100,100"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:273
+msgid "Show Bottom Decor"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:276
+msgid "Show decor at the bottom of the section."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:293
+msgid "Bottom Decor Opacity"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:305
+msgid "Bottom Decor Points"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:318
+#: vc_templates/vc_maps/vc_common.php:648
+msgid "Overlay"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_gradient.php:321
+msgid "Use"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:13
+msgid "Flaticon"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:16
+msgid "Font Awesome"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:19
+msgid "Elegant"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:22
+msgid "Icomoon"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:25
+msgid "Simple"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:28
+msgid "Stroke-Gap-Icons"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:31
+msgid "Custom"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:34
+msgid "Custom 1"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:37
+msgid "Custom 2"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:40
+msgid "Custom 3"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:43
+msgid "Custom 4"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:46
+msgid "Custom 5"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:49
+msgid "VC Font Awesome"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:53
+msgid "VC Open Iconic"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:56
+msgid "VC Typicons"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:59
+msgid "VC Entypo"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:62
+msgid "VC Linecons"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:67
+msgid "No Active Fonts"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:72
+msgid "Icon library"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:76
+msgid "Select icon library."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:86
+msgid "Icon"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_icons.php:98
+msgid "Select icon from library."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:126
+msgid "Makes"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:127
+msgid "Select Car Make"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:130
+msgid "Models"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:131
+msgid "Select Car Model"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:135
+msgid "Years"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:138
+#: vc_templates/vc_maps/vc_add_params.php:139
+msgid "Price"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:142
+msgid "Body Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:143
+msgid "Select Body Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:146
+msgid "Fuel"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:147
+msgid "Select Fuel"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:150
+msgid "Transmission"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:151
+msgid "Select Transmission"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:154
+#: vc_templates/vc_maps/vc_add_params.php:155
+msgid "Engine Capacity"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_params.php:158
+#: vc_templates/vc_maps/vc_add_params.php:159
+msgid "Mileage"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:6
+#: vc_templates/vc_maps/vc_add_shadows.php:14
+#: vc_templates/vc_maps/vc_add_shadows.php:95
+#: vc_templates/vc_maps/vc_add_shadows.php:112
+#: vc_templates/vc_maps/vc_add_shadows.php:125
+#: vc_templates/vc_maps/vc_add_shadows.php:139
+msgid "Shadows"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:10
+#: vc_templates/vc_maps/vc_add_shadows.php:121
+msgid "Disable"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:11
+msgid "Show"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:12
+msgid "On Hover"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:18
+#: vc_templates/vc_maps/vc_common.php:1121
+msgid "Values"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:20
+#: vc_templates/vc_maps/vc_common.php:966
+#: vc_templates/vc_maps/vc_common.php:1056
+#: vc_templates/vc_maps/vc_common.php:1123
+msgid "Enter values for graph - title and value."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:100
+msgid "Transition Time"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:117
+msgid "Preset"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:122
+msgid "Lifted Corners"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:123
+msgid "Bottom Curve"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_add_shadows.php:131
+msgid "Item Background Color"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:59
+msgid "Portfolio"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:62
+msgid "Portfolio Categories"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:65 vc_templates/vc_maps/vc_common.php:79
+#: vc_templates/vc_maps/vc_common.php:93 vc_templates/vc_maps/vc_common.php:107
+#: vc_templates/vc_maps/vc_common.php:2609
+msgid "Select categories to show"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:76
+msgid "Departments"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:87
+#: vc_templates/vc_maps/vc_common.php:1260
+msgid "Team"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:90
+msgid "Team Categories"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:101
+msgid "Products"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:104
+msgid "Products Categories"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:138
+#: vc_templates/vc_maps/vc_common.php:2018
+#: vc_templates/vc_maps/vc_common.php:2408
+msgid "Boxes Gap"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:170
+#: vc_templates/vc_maps/vc_common.php:178
+#: vc_templates/vc_maps/vc_common.php:630
+#: vc_templates/vc_maps/vc_common.php:785
+#: vc_templates/vc_maps/vc_common.php:902
+#: vc_templates/vc_maps/vc_common.php:1564
+#: vc_templates/vc_maps/vc_common.php:2116
+#: vc_templates/vc_maps/vc_common.php:2456
+msgid "Title"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: vc_templates/vc_maps/vc_common.php:173
+#: vc_templates/vc_maps/vc_common.php:271
+#: vc_templates/vc_maps/vc_common.php:411
+#: vc_templates/vc_maps/vc_common.php:708
+#: vc_templates/vc_maps/vc_common.php:824
+#: vc_templates/vc_maps/vc_common.php:839
+#: vc_templates/vc_maps/vc_common.php:875
+#: vc_templates/vc_maps/vc_common.php:940
+#: vc_templates/vc_maps/vc_common.php:1117
+#: vc_templates/vc_maps/vc_common.php:1171
+#: vc_templates/vc_maps/vc_common.php:1263
+#: vc_templates/vc_maps/vc_common.php:1345
+#: vc_templates/vc_maps/vc_common.php:1481
+#: vc_templates/vc_maps/vc_common.php:1595
+#: vc_templates/vc_maps/vc_common.php:1721
+#: vc_templates/vc_maps/vc_common.php:1793
+#: vc_templates/vc_maps/vc_common.php:1809
+#: vc_templates/vc_maps/vc_common.php:1822
+#: vc_templates/vc_maps/vc_common.php:1913
+#: vc_templates/vc_maps/vc_common.php:2076
+#: vc_templates/vc_maps/vc_common.php:2216
+#: vc_templates/vc_maps/vc_common.php:2252
+#: vc_templates/vc_maps/vc_common.php:2307
+#: vc_templates/vc_maps/vc_common.php:2582
+msgid "Solutech"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:180
+msgid "I am Title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:181
+msgid "Main title."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:185
+msgid "No Wrap"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:188
+msgid "If On, the overflowing text will not be moved to a new line"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:197
+msgid "Small"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:203
+msgid "Bottom Padding"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:210
+#: vc_templates/vc_maps/vc_common.php:1297
+#: vc_templates/vc_maps/vc_common.php:1427
+msgid "Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:230
+msgid "Pre title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:233
+msgid "Text before title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:255
+#: vc_templates/vc_maps/vc_common.php:395
+#: vc_templates/vc_maps/vc_common.php:690
+#: vc_templates/vc_maps/vc_common.php:808
+#: vc_templates/vc_maps/vc_common.php:1248
+#: vc_templates/vc_maps/vc_common.php:2058
+msgid "Css"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:257
+#: vc_templates/vc_maps/vc_common.php:397
+#: vc_templates/vc_maps/vc_common.php:692
+#: vc_templates/vc_maps/vc_common.php:810
+#: vc_templates/vc_maps/vc_common.php:1250
+#: vc_templates/vc_maps/vc_common.php:2060
+msgid "Design options"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:278
+msgid "Go"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:279
+msgid "Button text."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:286
+#: vc_templates/vc_maps/vc_common.php:640
+#: vc_templates/vc_maps/vc_common.php:1013
+msgid "Button link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:290
+msgid "As Link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:293
+msgid "Use as simple link with hover underline"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:325
+msgid "Top/Bottom Paddings"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:342
+msgid "Left/Right Paddings"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:359
+msgid "Font Size"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:375
+msgid "Colored"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:383
+#: vc_templates/vc_maps/vc_common.php:464
+#: vc_templates/vc_maps/vc_common.php:480
+#: vc_templates/vc_maps/vc_common.php:1502
+msgid "Alignment"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:408
+msgid "Icon Box"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:431
+#: vc_templates/vc_maps/vc_common.php:561
+#: vc_templates/vc_maps/vc_common.php:726
+#: vc_templates/vc_maps/vc_common.php:898
+#: vc_templates/vc_maps/vc_common.php:1286
+#: vc_templates/vc_maps/vc_common.php:1416
+#: vc_templates/vc_maps/vc_common.php:1519
+#: vc_templates/vc_maps/vc_common.php:1727
+#: vc_templates/vc_maps/vc_common.php:2518
+msgid "Select image."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:440
+msgid "Flip Box"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:451
+msgid "Box Shape"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:495
+msgid "Border"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:498
+msgid "Show border around the box"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:507
+#: vc_templates/vc_maps/vc_common.php:777
+msgid "Fill on Hover"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:510
+#: vc_templates/vc_maps/vc_common.php:780
+msgid "Fill the background with the main color on hover"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:522
+msgid "Set default padding to 0"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:531
+msgid "Fill Color"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:548
+#: vc_templates/vc_maps/vc_common.php:713
+#: vc_templates/vc_maps/vc_common.php:2505
+msgid "Icon Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:552
+#: vc_templates/vc_maps/vc_common.php:559
+#: vc_templates/vc_maps/vc_common.php:717
+#: vc_templates/vc_maps/vc_common.php:724
+#: vc_templates/vc_maps/vc_common.php:2516
+msgid "Image/SVG"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:574
+#: vc_templates/vc_maps/vc_common.php:738
+msgid "Icon Size"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:587
+msgid "Icon Background"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:598
+#: vc_templates/vc_maps/vc_common.php:763
+msgid "Icon Color"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:604
+#: vc_templates/vc_maps/vc_common.php:768
+msgid "Monochrome"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:632
+msgid "Enter text used as title of icon."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:644
+#: vc_templates/vc_maps/vc_common.php:1029
+msgid "Link Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:650
+#: vc_templates/vc_maps/vc_common.php:1034
+msgid "Text Link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:652
+msgid "If Overlay the whole box is a link. Don't use links in content"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:657
+#: vc_templates/vc_maps/vc_common.php:1044
+msgid "Button/Link Text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:667
+msgid "Content Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:672
+msgid "Middle"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:686
+#: vc_templates/vc_maps/vc_common.php:804
+msgid "Enter information."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:705
+msgid "Amount Box"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:751
+msgid "Icon Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:788
+msgid "Title."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:793
+msgid "Amount"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:796
+msgid "Amount."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:821
+msgid "Mailchimp Box"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:844
+msgid "Contact Form"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:847
+msgid "Select contact form to show"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:853
+msgid "Send Button Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:872
+msgid "Special Offers"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:891
+msgid "Offers"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:908
+#: vc_templates/vc_maps/vc_common.php:2463
+msgid "Subtitle"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:916
+#: vc_templates/vc_maps/vc_common.php:1005
+#: vc_templates/vc_maps/vc_common.php:1091
+#: vc_templates/vc_maps/vc_common.php:1457
+#: vc_templates/vc_maps/vc_common.php:1775
+msgid "I am test text block. Click edit button to change this text."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:917
+#: vc_templates/vc_maps/vc_common.php:1006
+#: vc_templates/vc_maps/vc_common.php:1092
+#: vc_templates/vc_maps/vc_common.php:1458
+msgid "Enter text."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:937
+msgid "Tabs/Accordion"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:944
+msgid "Toggle Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:948
+#: vc_templates/vc_maps/vc_common.php:964
+msgid "Tabs"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:949
+#: vc_templates/vc_maps/vc_common.php:1054
+msgid "Accordion"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:954
+msgid "Collapse"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:969
+msgid "Concept"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:975
+msgid "Design"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:981
+msgid "Deployment"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:987
+msgid "Support"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:996
+#: vc_templates/vc_maps/vc_common.php:1082
+#: vc_templates/vc_maps/vc_common.php:1145
+msgid "Label"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:998
+#: vc_templates/vc_maps/vc_common.php:1084
+#: vc_templates/vc_maps/vc_common.php:1147
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1017
+#: vc_templates/vc_maps/vc_common.php:1096
+msgid "ID"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1059
+msgid "Mus imperdiet, consectetuer adipiscing?"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1064
+msgid "Dictum interdum aenean magna vestibulum lectus?"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1069
+msgid "Urna auctor, turpis eu, curabitur maecenas vitae?"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1074
+msgid "Vel cursus sagittis sem nullam odio pede?"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1114
+msgid "Progress Bar"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1126
+msgid "Hosting providers"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1130
+msgid "Security companies"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1134
+msgid "Private companies and clients"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1138
+msgid "Software development companies"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1152
+msgid "Value"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1154
+msgid "Enter value of bar."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1168
+msgid "Posts Block"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1202
+#: vc_templates/vc_maps/vc_common.php:1837
+#: vc_templates/vc_maps/vc_common.php:2038
+#: vc_templates/vc_maps/vc_common.php:2172
+#: vc_templates/vc_maps/vc_common.php:2262
+msgid "Greyscale Images"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1205
+#: vc_templates/vc_maps/vc_common.php:1840
+#: vc_templates/vc_maps/vc_common.php:2265
+msgid "Show greyscale image with colored hover"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1210
+#: vc_templates/vc_maps/vc_common.php:2606
+msgid "Categories"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1213
+msgid "Select categories to show. If empty, display last posts."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1217
+#: vc_templates/vc_maps/vc_common.php:2011
+#: vc_templates/vc_maps/vc_common.php:2152
+#: vc_templates/vc_maps/vc_common.php:2617
+msgid "Items Count"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1219
+msgid "Select number posts to show. Default 3."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1224
+#: vc_templates/vc_maps/vc_common.php:2180
+msgid "Hover Icon"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1228
+#: vc_templates/vc_maps/vc_common.php:2184
+msgid "Plus"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1229
+#: vc_templates/vc_maps/vc_common.php:2185
+msgid "Eye"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1236
+#: vc_templates/vc_maps/vc_common.php:2046
+#: vc_templates/vc_maps/vc_common.php:2192
+msgid "Image Proportions"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1240
+#: vc_templates/vc_maps/vc_common.php:2050
+#: vc_templates/vc_maps/vc_common.php:2196
+msgid "Original"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1241
+#: vc_templates/vc_maps/vc_common.php:2051
+#: vc_templates/vc_maps/vc_common.php:2197
+msgid "Landscape"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1242
+#: vc_templates/vc_maps/vc_common.php:2052
+#: vc_templates/vc_maps/vc_common.php:2198
+msgid "Portrait"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1279
+msgid "Members"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1304
+msgid "Skype"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1310
+#: vc_templates/vc_maps/vc_common.php:1434
+msgid "Facebook"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1316
+#: vc_templates/vc_maps/vc_common.php:1441
+msgid "Twitter"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1322
+#: vc_templates/vc_maps/vc_common.php:1448
+msgid "Instagram"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1330
+msgid "to profile page"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1342
+#: vc_templates/vc_maps/vc_common.php:1409
+msgid "Reviews"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1377
+msgid "Hover Color"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1394
+msgid "Hover Effect"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1398
+msgid "Change Color"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1399
+msgid "Transform"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1436
+#: vc_templates/vc_maps/vc_common.php:1443
+#: vc_templates/vc_maps/vc_common.php:1450
+msgid "Profile link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1455
+msgid "Review Text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1464
+msgid "Author link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1485
+msgid "YouTube or Vimeo Link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1491
+msgid "Display Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1495
+msgid "Popup Window"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1496
+msgid "Embedded Video"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1497
+msgid "Button with Popup"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1544
+#: vc_templates/vc_maps/vc_common.php:1679
+msgid "Default 500px"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1592
+#: vc_templates/vc_maps/vc_common.php:1603
+msgid "Google Map"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1599
+msgid "Map Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1604
+msgid "Image with Link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1609
+msgid "Map Image"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1612
+#: vc_templates/vc_maps/vc_common.php:1632
+#: vc_templates/vc_maps/vc_common.php:2277
+msgid "Select image from media library."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1629
+msgid "Marker Image"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1640
+msgid "Locations"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1646
+msgid "LatLng"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1649
+msgid "Latitude, Longtitude (Example: 40.6700,-73.9400)"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1653
+msgid "Description"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1667
+msgid "Map Width"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1670
+msgid "Default 100%"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1676
+msgid "Map Height"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1685
+msgid "Zoom"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1688
+msgid "Zoom 0-20. Default 9."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1697
+msgid "Scroll Wheel"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1700
+msgid "Zoom map with scroll"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1718
+msgid "Image Points"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1744
+msgid "Point Unit"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1748
+msgid "Percent"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1749
+msgid "Pixels"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1761
+msgid "Top Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1767
+msgid "Left Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1773
+msgid "Popup Text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1786
+msgid "Slider"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1802
+msgid "Wrapper"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1819
+msgid "Grid"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1827
+#: vc_templates/vc_maps/vc_common.php:1983
+#: vc_templates/vc_maps/vc_common.php:2094
+msgid "Posts Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1830
+#: vc_templates/vc_maps/vc_common.php:1986
+#: vc_templates/vc_maps/vc_common.php:2097
+msgid "Select posts type to show"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1844
+msgid "Rows"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1861
+msgid "Large Image Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1879
+msgid "Order"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1883
+msgid "First posts"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1884
+#: vc_templates/vc_maps/vc_common.php:1890
+msgid "Custom IDs"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1886
+msgid "Select first posts or custom"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1892
+msgid ""
+"Input items IDs. First id is large image. (example: 307,304,302,301,300)"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1910
+msgid "Isotope"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1918
+#: vc_templates/vc_maps/vc_common.php:2081
+msgid "Box Style"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1930
+msgid "Filter Alignment"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1937
+#: vc_templates/vc_maps/vc_common.php:2109
+msgid "Hide"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1943
+msgid "Filter Style"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1949
+msgid "Sidebar Out"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1960
+msgid "All Text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1963
+msgid "Replace All with your text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1972
+msgid "Filter Title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:1995
+#: vc_templates/vc_maps/vc_common.php:2127
+msgid "Columns"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2006
+msgid "Select items number per row"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2013
+#: vc_templates/vc_maps/vc_common.php:2154
+msgid "Items number to show. Leave empty to show all items."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2041
+msgid "Show greyscale picture with colored hover."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2107
+msgid "Navigation Arrows"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2108
+msgid "Pagination Dots"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2140
+msgid "Select items number per screen"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2145
+msgid "Gap"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2175
+msgid "Show greyscale picture with colored hover"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2213
+msgid "Book An Appointment"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2220
+msgid "Calendar Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2223
+msgid "With Departments Select"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2224
+#: vc_templates/vc_maps/vc_common.php:2327
+msgid "Single"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2226
+#: vc_templates/vc_maps/vc_common.php:2233
+msgid "Select appointment calendar to show"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2230
+msgid "Calendar"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2249
+#: vc_templates/vc_maps/vc_common.php:2269
+msgid "Brands"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2256
+msgid "Brands per page"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2258
+msgid "Select number of columns. Default 5."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2281
+msgid "Brand Title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2304
+msgid "Price Table"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2323
+msgid "Boxes Type"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2328
+msgid "Double"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2338
+msgid "First Selector"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2341
+msgid "First tab button text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2350
+msgid "Second Selector"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2353
+msgid "Second tab button text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2378
+msgid "Currency"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2381
+msgid "Change currency"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2388
+msgid "Button text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2393
+msgid "Button Position"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2397
+msgid "Header"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2419
+msgid "Features Title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2430
+msgid "Features Subtitle"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2442
+msgid "Features for Comparison"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2445
+msgid "This Features is compared with every box options and set enable/disable"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2450
+msgid "Price Boxes"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2458
+msgid "Column title"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2465
+msgid "Subtitle text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2472
+msgid "Change Global button text"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2477
+msgid "First Price"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2484
+msgid "Second Price"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2491
+msgid "Price Subtext"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2493
+msgid "Text after price"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2498
+msgid "Popular"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2509
+msgid "SVG/Image"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2531
+msgid "Features"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2534
+msgid "The list of Features"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2540
+msgid "Additional Information"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2543
+msgid "Enter information"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2548
+msgid "Product ID"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2550
+msgid "Redirect to checkout"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2557
+msgid "Item link"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2579
+msgid "Woocommerce Products"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2586
+msgid "Products by"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2590
+msgid "Category"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2591
+#: vc_templates/vc_maps/vc_common.php:2596
+msgid "IDs"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2598
+msgid "Input products ID.  (example: 307,304,302,301,300)"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2619
+msgid "Select number products."
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2627
+msgid "Products per page"
+msgstr ""
+
+#: vc_templates/vc_maps/vc_common.php:2629
+msgid "Default 3."
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://solutech.true-emotions.studio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Digital Security template with E-commerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PixTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://true-emotions.studio/"
+msgstr ""

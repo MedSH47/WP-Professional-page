@@ -1,0 +1,56 @@
+html .pix-el-radio-images{
+    max-height: 300px;
+    overflow: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px 10px;
+}
+
+html .pix-el-radio-images.pix-col-2 {
+     grid-template-columns: auto auto;
+}
+
+html .pix-el-radio-images input[type=radio]:checked + label img {
+    border: 1px solid #ff3737;
+}
+html .pix-el-radio-images label img {
+	border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+	transition: .3s;
+    cursor: pointer;
+}
+html .radio-image-item:hover label img {
+	box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+html .radio-image-item label span{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 5px;
+    width: 99%;
+    margin: -20px auto 0;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+html .radio-image-item:hover label span,
+html .pix-el-radio-images input[type=radio]:checked + label span{
+    opacity: 1;
+}
+
+html input.hidden-field-value,
+html .pix-el-radio-images input{
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    left:0;
+    z-index: -1;
+}

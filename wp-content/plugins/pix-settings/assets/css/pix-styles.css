@@ -1,0 +1,78 @@
+
+/***   Calculator   ***/
+.pix-calculator-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.pix-calculator-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pix-calculator-field select {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    background-color: #fff;
+    color: var(--pix-font-color);
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+}
+.pix-calculator-field label{
+    display: block;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.pix-calculator-field .radio label{
+    display: inline-block;
+    margin-right: 20px;
+}
+.pix-calc-values.radio{
+    margin-bottom: -5px;
+}
+.pix-calculator-field label input{
+    position: relative;
+    /*top: -3px;*/
+    margin-right: 7px;
+}
+.pix-calculator-field:hover .pix-reset{
+    visibility: visible;
+    opacity: 1;
+}
+.pix-calculator-field .pix-reset{
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.33s ease, opacity 0.33s ease;
+}
+.pix-calc-title span{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.pix-calc-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.pix-calc-total > div{
+    display: inline-block;
+}
+.pix-calc-total-btn {
+    float: right;
+    cursor: pointer;
+}
+.pix-form-container,
+.pix-form-container .pix-calculator-data{
+    display: none;
+}
+.pix-calculator-fields + .pix-form-container{
+    padding-top: 30px;
+}

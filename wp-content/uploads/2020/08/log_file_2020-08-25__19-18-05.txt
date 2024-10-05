@@ -1,0 +1,194 @@
+
+---Downloaded files---
+The import files for: Cyber, CCTV, Bodyguard, Hacking were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://defender.true-emotions.studio
+Data file = /var/www/defender.true-emotions.studio/public_html/wp-content/uploads/2020/08/demo-content-import-file_2020-08-25__19-18-05.xml
+Widget file = /var/www/defender.true-emotions.studio/public_html/wp-content/uploads/2020/08/demo-widgets-import-file_2020-08-25__19-18-05.json
+Customizer file = /var/www/defender.true-emotions.studio/public_html/wp-content/uploads/2020/08/demo-customizer-import-file_2020-08-25__19-18-05.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+WP Default Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Blog Sidebar : 
+
+Booked Calendar - No Title - Imported
+
+Portfolio Sidebar : 
+
+Pix Taxonomy Categories - No Title - Imported
+
+Shop sidebar : 
+
+Product Search - No Title - Imported
+Product Categories - Product categories - Imported
+Booked Calendar - Appoitment - Imported
+
+widgetopts_exported : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,868 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* CUSTOM ADMIN CSS (ADD YOUR CSS HERE!) */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+html .updated.vc_license-activation-notice{
+    display: none !important;
+}
+
+.pix-help-links {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: relative;
+    max-height: 32px;
+}
+
+.pix-help-links p{
+    display: inline-block;
+    padding-left: 10px;
+    margin: 9px 0;
+}
+
+.pix-email {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal !important;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0,0,0,.75);
+    margin-right: 1em;
+    -webkit-transition: text-shadow .33s;
+    transition: text-shadow .33s;
+}
+
+.pix-email:hover {
+    color: #fff;
+    text-shadow: 0 1px 5px rgba(33,111,255,.75);
+}
+a.pix-email:active:focus:visited {
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pix-help-links .pix-email {
+    margin-right: 1em;
+}
+
+.pix-help-links .pix-button {
+    margin-left: 0.5em;
+}
+
+.pix-button {
+    padding: 0.6em 1.5em;
+    background: #216fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal !important;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0,0,0,.4);
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    -webkit-transition: box-shadow .33s, transform .33s;
+    transition: box-shadow .33s, transform .33s;
+    -webkit-font-smoothing: subpixel-antialiased;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pix-button:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 0 -1px rgba(255,255,255,0.55), 0 5px 30px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 0 -1px rgba(255,255,255,0.55), 0 5px 30px rgba(0,0,0,0.4);
+    transform: translate3d(0, -4px, 0);
+}
+
+a.pix-button:focus:visited {
+    -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.pix-button:active {
+    color: #fff;
+    transform: translate3d(0, -2px, 0);
+    -webkit-transition: transform .07s;
+    transition: transform .07s;
+}
+
+.pix-button:focus {
+    color: #fff;
+}
+
+.pix-margin-top-xs {
+    margin-top: 0.2em !important;
+}
+.pix-margin-bottom-xs {
+    margin-bottom: 0.2em !important;
+}
+.pix-margin-bottom-xs + .pix-margin-top-xs{
+    margin-top: -0.5em !important;
+}
+
+#post_formats {
+	display: none;
+}
+
+.pix-post-format-settings{
+    width: 50%;
+}
+
+.pix-sidebar-select {
+    max-width: 100%;
+    min-width: 75%;
+    margin: -10px auto 5px;
+}
+
+.vc_ui-panel .vc_panel-tabs>.vc_edit-form-tab.vc_active {
+    padding-bottom: 20px;
+}
+
+.vc_edit_form_elements .vc_column:not(.vc_col-xs-12):first-child{
+    padding-top: 15px;
+}
+
+.pix-theme-icon-common .vc_controls-content-widget{
+    background: #fcb177;
+    border-color: #fcb177;
+}
+.pix-theme-icon-common .vc_controls-content-widget .vc_btn-content:hover {
+    background-color: #a97a70;
+}
+.vc_add-element-container .wpb-content-layouts{
+    width: 100%;
+}
+
+
+.wpb_el_type_attach_image[data-vc-shortcode-param-name="awb_image"] .wpb_element_label,
+.wpb_el_type_colorpicker[data-vc-shortcode-param-name="awb_color"] .wpb_element_label,
+.wpb_el_type_dropdown[data-vc-shortcode-param-name="awb_image_size"] .wpb_element_label,
+.wpb_el_type_dropdown[data-vc-shortcode-param-name="awb_image_background_size"] .wpb_element_label,
+.wpb_el_type_textfield[data-vc-shortcode-param-name="awb_image_background_position"] .wpb_element_label,
+.wpb_el_type_textfield[data-vc-shortcode-param-name="awb_video"] .wpb_element_label{
+    display: none;
+}
+
+.rtl .vc_controls-row .vc_row_edit_clone_delete .vc_control{
+    float: left;
+}
+
+
+.vc_add-element-container .wpb-content-layouts {
+    padding: 0 0 120px 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.vc_preview_info{
+    position: absolute;
+    font-size: 18px;
+    right: 5px;
+    top: 5px;
+    color: #ccc;
+     transition: all .55s linear;
+}
+
+.vc_preview_info:hover {
+    color: #000 !important;
+}
+
+.vc_preview_obv{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 100%;
+    min-width: 170px;
+    visibility: hidden;
+    opacity: 0; 
+    transition: opacity .55s linear;
+    border: 5px solid #ccc;
+    background: #fff;
+    border-radius: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+    
+}
+
+.vc_preview_obv img{
+    width: 100%;
+    height: auto;
+}
+
+.vc_preview_info:hover +  .vc_preview_obv{
+    visibility: visible;
+    opacity:1;
+}
+
+
+
+.vc_add-element-container .wpb-content-layouts li{
+    overflow: inherit !important;
+}
+
+/* vc label */
+html .wpb_element_label {
+    background-color: #f6f6f6;
+    padding: 10px;
+    box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.25), 0 20px 15px -15px rgba(0,0,0,0.15);
+    margin: 15px 0;
+}
+
+.edit_form_line{
+    position: relative;
+}
+.edit_form_line .vc_checkbox-label{
+    display: inline-block;
+    width: 45%;
+    margin-right: 3%;
+    vertical-align: middle;
+}
+.edit_form_line .radio-image-item .vc_checkbox-label{
+    width: 100%;
+    margin: 0;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+html input.hidden-field-value,
+html .pix-vc-radio-images input,
+html .pix-vc-switch-button input,
+html .pix-vc-segmented-button input{
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    left:0;
+    z-index: -1;
+}
+
+
+.pix-bg-png{
+	background-image: url("../../../images/bg_png.png");
+}
+.pix-bg-png img {
+    max-width: 100%;
+    height: auto;
+}
+.vc_admin_label.admin_label_awb_type{
+    display: none !important;
+}
+.wpb_element_wrapper{
+    position: relative;
+}
+.pix-padding-vc-row{
+    position: absolute;
+    right: 2px;
+}
+.pix-padding-vc-row p{
+    margin: 0 !important;
+    padding: 4px 10px;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 14px;
+    color: #a1a1a1;
+    border-radius: 3px;
+}
+
+.pix-padding-vc-row.pix-top{
+    top: 1px;
+    /*background: url(../../../images/icons/vc/pix-vc-padding-top.svg) no-repeat 100% 0;*/
+}
+.pix-padding-vc-row.pix-bottom{
+    bottom: 17px;
+    /*background: url(../../../images/icons/vc/pix-vc-padding-bottom.svg) no-repeat 100% 0;*/
+}
+
+.wpb_vc_column .pix-padding-vc-row{
+    right: 15px;
+}
+.wpb_vc_column .pix-padding-vc-row.pix-top{
+    top: 2px;
+}
+.wpb_vc_column .pix-padding-vc-row.pix-bottom{
+    bottom: 2px;
+}
+
+
+.pix-btn-icon{
+	font-size: 13px;
+	cursor: pointer;
+    padding: 5px 10px 4px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    color: #777;
+    margin-right: 2px;
+    transition: .2s;
+}
+.pix-btn-icon.pix-image-upload,
+.pix-btn-icon.pix-reset{
+    margin-top: 5px;
+    margin-left: 1px;
+    padding-right: 5px;
+}
+.pix-btn-icon:hover{
+    color: #0073aa;
+    border-color: #0073aa;
+}
+.pix-btn-icon i{
+    font-size: 15px;
+    padding-right: 5px;
+}
+.pix-bg img{
+	max-width: 200px;
+}
+html .pix-vc-radio-images{
+    max-height: 300px;
+    overflow: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px 10px;
+}
+
+html .pix-vc-radio-images.pix-col-3 {
+     grid-template-columns: auto auto auto;
+}
+
+html .pix-vc-radio-images.pix-wide {
+    grid-template-columns: auto auto auto auto;
+}
+
+html .pix-vc-radio-images input[type=radio]:checked + label img {
+    border: 1px solid #9045f9;
+}
+html .pix-vc-radio-images label img {
+	border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+	transition: .3s;
+}
+html .radio-image-item:hover label img {
+	box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+html .radio-image-item label span{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 3px 5px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+html .radio-image-item:hover label span,
+html .pix-vc-radio-images input[type=radio]:checked + label span{
+    opacity: 1;
+}
+
+
+.pix-theme-icon-common  .vc_element-icon, .pix-theme-icon-common_nav  .vc_element-icon{
+    background: url(../../../images/icons/vc/pix-vc.svg) no-repeat 0 0 !important;
+    top: -8px !important;
+    position: relative;
+}
+.pix-theme-icon-common_nav  .vc_element-icon{
+    top: 20px !important;
+}
+.pix-metabox-normal-fields{
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+}
+.pix-metabox-normal-fields label{
+    padding-top: 10px;
+}
+.pix-metabox-normal-fields input{
+    padding: 7px;
+}
+.pix-metabox-normal-fields textarea{
+    min-width: 34vw;
+}
+
+
+
+
+
+
+/***    Pix Google Fonts Admin    ***/
+#pix-fonts-embed {
+    margin-bottom: 5px;
+}
+.pix-font-weights-content label{
+    display: inline-block;
+    width: 40%;
+    padding: 5px 10px 0;
+}
+.pix-customize-control-label{
+    display: inline-block;
+    width: calc(100% - 50px);
+    cursor: pointer;
+    padding: 5px 10px;
+    overflow: hidden;
+    font-size: 1.1em;
+}
+.pix-customize-control-label.active{
+    font-weight: bold;
+}
+
+#customize-control-pixtheme_fonts_embed{
+    margin-bottom: 50px;
+}
+.pix-google-font-wrapper{
+    position: relative;
+}
+
+.pix-google-font-wrapper button,
+.pix-google-font-select button{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    margin: 0;
+    height: 26px;
+    cursor: pointer;
+}
+.pix-google-font-select button{
+    right: 0;
+}
+
+.pix-google-font-wrapper label{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pix-font-weights-content{
+    padding-bottom: 20px;
+}
+.pix-google-font-select{
+    display: block;
+    transition: .35s;
+    margin: 10px;
+    position: relative;
+}
+.pix-google-font-select.close{
+    display: none;
+}
+.pix-google-font-weights {
+    width: calc(100% - 33px) !important;
+}
+
+
+.pix-button-center{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+.pix-google-font-add{
+    padding: 5px 15px;
+}
+
+
+
+
+
+/*
+ * Copyright (c) 2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 56px;
+    height: 20px;
+    margin: 6px 0 5px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top, #eeeeee, white 25px);
+    background-image: -moz-linear-gradient(top, #eeeeee, white 25px);
+    background-image: -o-linear-gradient(top, #eeeeee, white 25px);
+    background-image: linear-gradient(to bottom, #eeeeee, white 25px);
+}
+
+.switch-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0 !important;
+}
+
+.switch-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #eceeef;
+    border-radius: inherit;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+    -webkit-transition-property: opacity, background;
+    -moz-transition-property: opacity, background;
+    -o-transition-property: opacity, background;
+    transition-property: opacity, background;
+}
+.switch-label:before, .switch-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+}
+.switch-label:before {
+    content: attr(data-off);
+    right: 11px;
+    color: #aaa;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.switch-label:after {
+    content: attr(data-on);
+    left: 11px;
+    color: white;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+.switch-input:checked ~ .switch-label {
+    background: #47a8d8;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.switch-input:checked ~ .switch-label:before {
+    opacity: 0;
+}
+.switch-input:checked ~ .switch-label:after {
+    opacity: 1;
+}
+
+.switch-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, white 40%, #f0f0f0);
+    background-image: -moz-linear-gradient(top, white 40%, #f0f0f0);
+    background-image: -o-linear-gradient(top, white 40%, #f0f0f0);
+    background-image: linear-gradient(to bottom, white 40%, #f0f0f0);
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+}
+.switch-handle:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 12px;
+    height: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+    background-image: -webkit-linear-gradient(top, #eeeeee, white);
+    background-image: -moz-linear-gradient(top, #eeeeee, white);
+    background-image: -o-linear-gradient(top, #eeeeee, white);
+    background-image: linear-gradient(to bottom, #eeeeee, white);
+}
+.switch-input:checked ~ .switch-handle {
+    left: 40px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.switch-green > .switch-input:checked ~ .switch-label {
+    background: #4fb845;
+}
+
+
+
+
+.customize-control-title.hide{
+    display: none;
+}
+
+.pix-switch-container .switch {
+    margin-top: 0;
+}
+
+
+
+
+/* Segmented Button */
+
+.pix-vc-segmented-button {
+    padding: 12px 0;
+}
+.my_param_block.pix-vc-segmented-button {
+    padding: 4px 0;
+}
+.pix-vc-segmented-button.center{
+    text-align: center;
+}
+.pix-vc-segmented-button.right{
+    text-align: right;
+}
+.pix-vc-segmented-button input[type="radio"] {
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+.pix-vc-segmented-button label {
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow: white;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e4e4e4));
+    background: -webkit-linear-gradient(#ffffff, #e4e4e4);
+    background: -moz-linear-gradient(#ffffff, #e4e4e4);
+    background: -o-linear-gradient(#ffffff, #e4e4e4);
+    background: -ms-linear-gradient(#ffffff, #e4e4e4);
+    background: linear-gradient(#ffffff, #e4e4e4);
+    border: 1px solid #b2b2b2;
+    color: #666666;
+    padding: 5px 15px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Helvetica;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+    margin-right: -5px;
+}
+.customize-control .pix-vc-segmented-button label{
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.pix-vc-segmented-button label {
+    *display: inline;
+}
+.pix-vc-segmented-button label:hover {
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+.pix-vc-segmented-button label:active, .pix-vc-segmented-button label.active {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d4d4d4), color-stop(100%, #dddddd));
+    background: -webkit-linear-gradient(#d4d4d4, #dddddd);
+    background: -moz-linear-gradient(#d4d4d4, #dddddd);
+    background: -o-linear-gradient(#d4d4d4, #dddddd);
+    background: -ms-linear-gradient(#d4d4d4, #dddddd);
+    background: linear-gradient(#d4d4d4, #dddddd);
+}
+.pix-vc-segmented-button label:disabled, .pix-vc-segmented-button label.disabled {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef));
+    background: -webkit-linear-gradient(#ffffff, #efefef);
+    background: -moz-linear-gradient(#ffffff, #efefef);
+    background: -o-linear-gradient(#ffffff, #efefef);
+    background: -ms-linear-gradient(#ffffff, #efefef);
+    background: linear-gradient(#ffffff, #efefef);
+    cursor: default;
+    color: #b2b2b2;
+    border-color: #cccccc;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.pix-vc-segmented-button label.first,
+.rtl .pix-vc-segmented-button label.last{
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -o-border-top-left-radius: 4px;
+    -ms-border-top-left-radius: 4px;
+    -khtml-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -o-border-bottom-left-radius: 4px;
+    -ms-border-bottom-left-radius: 4px;
+    -khtml-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.pix-vc-segmented-button label.last,
+.rtl .pix-vc-segmented-button label.first{
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -o-border-top-right-radius: 4px;
+    -ms-border-top-right-radius: 4px;
+    -khtml-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -o-border-bottom-right-radius: 4px;
+    -ms-border-bottom-right-radius: 4px;
+    -khtml-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.pix-vc-segmented-button input:checked + label, .pix-vc-segmented-button label.selected {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d4d4d4), color-stop(100%, #dddddd));
+    background: -webkit-linear-gradient(#d4d4d4, #dddddd);
+    background: -moz-linear-gradient(#d4d4d4, #dddddd);
+    background: -o-linear-gradient(#d4d4d4, #dddddd);
+    background: -ms-linear-gradient(#d4d4d4, #dddddd);
+    background: linear-gradient(#d4d4d4, #dddddd);
+}
+.pix-vc-segmented-button input:disabled + label {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef));
+    background: -webkit-linear-gradient(#ffffff, #efefef);
+    background: -moz-linear-gradient(#ffffff, #efefef);
+    background: -o-linear-gradient(#ffffff, #efefef);
+    background: -ms-linear-gradient(#ffffff, #efefef);
+    background: linear-gradient(#ffffff, #efefef);
+    cursor: default;
+    color: #b2b2b2;
+    border-color: #cccccc;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/***   Range Slider  ***/
+html span.irs-slider{
+    cursor: pointer;
+}
+html .irs-min,
+html .irs-max {
+    background: rgba(0,0,0,0);
+}
+div.pix-vc-range-slider,
+div.pix-slider-meta-box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 10%;
+}
+div.pix-vc-range-slider .range-single-input,
+div.pix-slider-meta-box .range-single-input{
+    text-align: right;
+}
+div.pix-vc-range-slider .range-single-input input,
+div.pix-slider-meta-box .range-single-input input{
+    width: 70%;
+}
+
+.customize-control label{
+    position: relative;
+}
+.customize-control .range-values{
+    margin-left: 10px;
+}
+.customize-control .range-values.range-single-input {
+    margin-left: 0;
+    text-align: center;
+}
+.customize-control .range-values input{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.customize-control .range-values input:disabled{
+    color: rgba(51,51,51,0.5);
+}
+.customize-control .range-values a{
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 3px 7px;
+    position: relative;
+    top: -1px;
+}
+
+
+
+/* Cars Filter */
+
+.pix-vc-cars-filter{
+    position: relative;
+    text-align: center;
+}
+.pix-vc-cars-filter .pix-widget-sortable{
+    float: none;
+    width: 500px;
+    display: inline-block;
+    margin: 0;
+}
+.pix-vc-cars-filter .pix-widget-sortable .pix-widget-option{
+    text-align: right;
+}
+.pix-vc-cars-filter .pix-widget-sortable input[type=text]{
+    padding: 3px 5px;
+    margin-right: 75px;
+    margin-left: 10px;
+    width: 280px;
+}
+.pix-vc-cars-filter .pix-widget-sortable div.ui-state-highlight {
+	height: 50px;
+}
+
+
+
+
+:focus{
+    outline: none !important;
+}

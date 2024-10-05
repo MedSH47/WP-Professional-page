@@ -1,0 +1,128 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/08/2019 09:59
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-shield:before { content: "\f100"; }
+.flaticon-key:before { content: "\f101"; }
+.flaticon-siren:before { content: "\f102"; }
+.flaticon-antivirus:before { content: "\f103"; }
+.flaticon-firewall:before { content: "\f104"; }
+.flaticon-pin-code:before { content: "\f105"; }
+.flaticon-security-camera:before { content: "\f106"; }
+.flaticon-shield-1:before { content: "\f107"; }
+.flaticon-security-camera-1:before { content: "\f108"; }
+.flaticon-antivirus-1:before { content: "\f109"; }
+.flaticon-search:before { content: "\f10a"; }
+.flaticon-traffic-signal:before { content: "\f10b"; }
+.flaticon-security-camera-2:before { content: "\f10c"; }
+.flaticon-antivirus-2:before { content: "\f10d"; }
+.flaticon-security-camera-3:before { content: "\f10e"; }
+.flaticon-warning:before { content: "\f10f"; }
+.flaticon-fingerprint:before { content: "\f110"; }
+.flaticon-firewall-1:before { content: "\f111"; }
+.flaticon-shield-2:before { content: "\f112"; }
+.flaticon-handcuffs:before { content: "\f113"; }
+.flaticon-fire-extinguisher:before { content: "\f114"; }
+.flaticon-keyhole:before { content: "\f115"; }
+.flaticon-traffic-cone:before { content: "\f116"; }
+.flaticon-pin-code-1:before { content: "\f117"; }
+.flaticon-scan:before { content: "\f118"; }
+.flaticon-fingerprint-scan:before { content: "\f119"; }
+.flaticon-fingerprint-scan-1:before { content: "\f11a"; }
+.flaticon-seatbelt:before { content: "\f11b"; }
+.flaticon-alarm:before { content: "\f11c"; }
+.flaticon-scan-1:before { content: "\f11d"; }
+.flaticon-security-camera-4:before { content: "\f11e"; }
+.flaticon-laptop:before { content: "\f11f"; }
+.flaticon-combination:before { content: "\f120"; }
+.flaticon-smartphone:before { content: "\f121"; }
+.flaticon-laptop-1:before { content: "\f122"; }
+.flaticon-padlock:before { content: "\f123"; }
+.flaticon-safebox:before { content: "\f124"; }
+.flaticon-padlock-1:before { content: "\f125"; }
+.flaticon-paper-shredder:before { content: "\f126"; }
+.flaticon-padlock-2:before { content: "\f127"; }
+.flaticon-lockpick:before { content: "\f128"; }
+.flaticon-padlock-3:before { content: "\f129"; }
+.flaticon-firewall-2:before { content: "\f12a"; }
+.flaticon-laptop-2:before { content: "\f12b"; }
+    
+    $font-Flaticon-shield: "\f100";
+    $font-Flaticon-key: "\f101";
+    $font-Flaticon-siren: "\f102";
+    $font-Flaticon-antivirus: "\f103";
+    $font-Flaticon-firewall: "\f104";
+    $font-Flaticon-pin-code: "\f105";
+    $font-Flaticon-security-camera: "\f106";
+    $font-Flaticon-shield-1: "\f107";
+    $font-Flaticon-security-camera-1: "\f108";
+    $font-Flaticon-antivirus-1: "\f109";
+    $font-Flaticon-search: "\f10a";
+    $font-Flaticon-traffic-signal: "\f10b";
+    $font-Flaticon-security-camera-2: "\f10c";
+    $font-Flaticon-antivirus-2: "\f10d";
+    $font-Flaticon-security-camera-3: "\f10e";
+    $font-Flaticon-warning: "\f10f";
+    $font-Flaticon-fingerprint: "\f110";
+    $font-Flaticon-firewall-1: "\f111";
+    $font-Flaticon-shield-2: "\f112";
+    $font-Flaticon-handcuffs: "\f113";
+    $font-Flaticon-fire-extinguisher: "\f114";
+    $font-Flaticon-keyhole: "\f115";
+    $font-Flaticon-traffic-cone: "\f116";
+    $font-Flaticon-pin-code-1: "\f117";
+    $font-Flaticon-scan: "\f118";
+    $font-Flaticon-fingerprint-scan: "\f119";
+    $font-Flaticon-fingerprint-scan-1: "\f11a";
+    $font-Flaticon-seatbelt: "\f11b";
+    $font-Flaticon-alarm: "\f11c";
+    $font-Flaticon-scan-1: "\f11d";
+    $font-Flaticon-security-camera-4: "\f11e";
+    $font-Flaticon-laptop: "\f11f";
+    $font-Flaticon-combination: "\f120";
+    $font-Flaticon-smartphone: "\f121";
+    $font-Flaticon-laptop-1: "\f122";
+    $font-Flaticon-padlock: "\f123";
+    $font-Flaticon-safebox: "\f124";
+    $font-Flaticon-padlock-1: "\f125";
+    $font-Flaticon-paper-shredder: "\f126";
+    $font-Flaticon-padlock-2: "\f127";
+    $font-Flaticon-lockpick: "\f128";
+    $font-Flaticon-padlock-3: "\f129";
+    $font-Flaticon-firewall-2: "\f12a";
+    $font-Flaticon-laptop-2: "\f12b";

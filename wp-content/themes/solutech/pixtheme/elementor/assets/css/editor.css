@@ -1,0 +1,8 @@
+#elementor-notice-bar {
+    display: none !important;
+}
+
+.elementor-control-content .pix-widget-field-outside-title,
+.elementor-control-content .pix-widget-field-bg-color {
+    display: none;
+}

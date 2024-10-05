@@ -1,0 +1,12 @@
+
+.fil-table table{
+	margin-bottom:10px;
+}
+
+
+.fil-table td ,.fil-table th{
+	  text-align: left;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 10px;
+}

@@ -1,0 +1,477 @@
+/*
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+.blog > .container > .row {
+    direction: ltr;
+}
+.blog > .container > .row > div {
+    direction: rtl;
+}
+
+.rtl .text-left,
+.rtl .rtd .related h2, .rtl .upsells h2,
+.rtl caption, .rtl th,
+.rtl .wpb_heading,
+.rtl .pix-sidebar-box,
+.rtl.woocommerce div.product div.summary,
+.rtl.woocommerce div.product .woocommerce-tabs ul.tabs,
+.rtl.woocommerce div.product .woocommerce-tabs .panel,
+.rtl .woocommerce table.shop_table,
+.rtl.woocommerce-cart table.cart td,
+.rtl.woocommerce-cart table.cart th,
+.rtl .woocommerce h2,
+.rtl .rtd .woocommerce h2,
+.rtl .rtd .woocommerce h3,
+.rtl .woocommerce .woocommerce-error,
+.rtl .woocommerce .woocommerce-info,
+.rtl .woocommerce .woocommerce-message,
+.rtl .payment_box,
+.rtl .woocommerce-privacy-policy-text,
+.rtl .select2,
+.rtl .select2-results,
+.rtl #add_payment_method #payment ul.payment_methods li,
+.rtl .woocommerce-checkout #payment ul.payment_methods li,
+.rtl .menu-mobile__list ul li,
+.rtl .blog-article .post-content,
+.rtl .blog-article .comment-respond,
+.rtl .blog-article .footer-meta.blog-footer-tags,
+.rtl .blog-article__related .pix-news-prev,
+.rtl .pix-section-tabs .tab-content,
+.rtl .pix-progressbar-box .col-6:first-child
+{
+    text-align: right !important;
+}
+
+.rtl.woocommerce .cart-collaterals .cart_totals,
+.rtl.woocommerce-page .cart-collaterals .cart_totals,
+.rtl.woocommerce div.product form.cart div.quantity,
+.rtl .woocommerce .col2-set .col-1,
+.rtl .woocommerce-page .col2-set .col-1,
+.rtl .menu-mobile__header .navbar-brand,
+.rtl.woocommerce #reviews #comments ol.commentlist li img.avatar{
+    float: right;
+}
+
+.rtl .menu-mobile__header .hamburger,
+.rtl.woocommerce .star-rating{
+    float: left;
+}
+
+.rtl .woocommerce .woocommerce-error,
+.rtl .woocommerce .woocommerce-info,
+.rtl .woocommerce .woocommerce-message{
+    padding: 1em 3.5em 1em 2em !important;
+}
+
+.rtl .woocommerce .woocommerce-error:before,
+.rtl .woocommerce .woocommerce-info:before,
+.rtl .woocommerce .woocommerce-message:before{
+    left: auto;
+    right: 1.5em;
+}
+.rtl #add_payment_method #payment div.payment_box:before,
+.rtl .woocommerce-checkout #payment div.payment_box:before{
+    left: auto;
+    right: 0;
+    margin: -1em 2em 0 0;
+}
+
+.rtl .text-right,
+.rtl .pix-text-right {
+    text-align: left !important;
+}
+
+.rtl.woocommerce #reviews #comments ol.commentlist li img.avatar {
+    left: auto;
+    right: 0;
+}
+
+.rtl .pix-header-abs-content.pix-text-right {
+    right: auto;
+    left: 0;
+}
+
+.rtl .rtd ul:not([class]) li:not([dir="ltr"]):before{
+    margin-right: -13px;
+    margin-left: 3px;
+}
+.rtl .pix-top-bar .header-topbarbox-1 ul li{
+    padding-left: 50px;
+    padding-right: 0;
+}
+.rtl .pix-top-bar .header-topbarbox-1 ul li i{
+    padding-left: 10px;
+    padding-right: 0;
+}
+.rtl .pix-top-bar .header-topbarbox-2 ul.header-socials{
+    padding-right: 70px;
+    padding-left: 0;
+}
+.rtl .pix-top-bar .header-topbarbox-2 ul li{
+    padding-right: 15px;
+    padding-left: 0;
+}
+.rtl .pix-header nav ul.main-menu-elements li:last-child{
+    padding-left: 0;
+}
+.rtl .pix-header nav > ul.main-menu-elements > li.pix-header-phone > a span{
+    padding-right: 0.5em;
+    padding-left: 0;
+}
+
+.rtl .pix-header.pix-header-info .pix-info-container li:last-child,
+.rtl .pix-header.pix-levels nav ul.main-menu-elements li:last-child {
+    padding-left: 0;
+}
+
+.rtl .fixed li.pix-fixed-content {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.rtl .pix-header nav ul.nav > li.arrow {
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.rtl .pix-header nav ul.nav > li.arrow:after {
+    left: -3px;
+    right: auto;
+}
+.rtl .pix-header nav ul.submenu li.arrow:after {
+    content: '\f053';
+    left: 15px;
+    right: auto;
+    -webkit-transition: left .33s;
+    transition: left .33s;
+}
+.rtl .pix-header nav ul li ul.submenu li:hover.arrow:after {
+    left: 10px;
+    right: auto;
+}
+.rtl .pix-header nav ul li > ul.submenu li:hover > ul.submenu {
+    transform: translateX(10px);
+    right: 100%;
+    left: auto;
+}
+.rtl .pix-header nav ul li ul.submenu li ul.submenu {
+    left: auto;
+    right: 0;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.rtl .pix-header nav > ul > li:not(.pix-submenu-vertical):hover ul.submenu > li > ul.submenu {
+    right: 100%;
+    left: auto;
+}
+.rtl .pix-header.pix-levels nav ul li ul.submenu {
+    right: -25px;
+    left: auto;
+}
+
+.rtl .pix-header nav ul li ul.submenu {
+    text-align: right;
+    right: -30px;
+    left: auto;
+}
+
+.rtl .pix-header nav ul li ul.submenu li:hover {
+    transform: translateX(-15px);
+}
+
+.rtl .menu-mobile__list li.js-mobile-menu i {
+    left: 15px;
+    right: auto;
+}
+
+html .rtl .pix-container-boxed .vc_row[class*="pix_shadow_"] .vc_column_container > .vc_column-inner[class*="pix-padding"]{
+    margin-right: -65px;
+}
+
+.rtl .isotope .isotope-item {
+  -webkit-transition-property: right, top, -webkit-transform, opacity;
+     -moz-transition-property: right, top, -moz-transform, opacity;
+      -ms-transition-property: right, top, -ms-transform, opacity;
+       -o-transition-property: right, top, -o-transform, opacity;
+          transition-property: right, top, transform, opacity;
+}
+
+.rtl .menu-mobile__header i.js-search-toggle {
+    float: left;
+    margin-left: 15px;
+}
+
+.rtl .menu-mobile__header .cart-container {
+    float: left;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.rtl .hamburger--4{
+    float: left;
+    margin-left: 5px;
+}
+
+.rtl .menu-mobile__list .overlay{
+    left: -30px;
+}
+
+.rtl .menu-mobile__list {
+    right: -800px;
+}
+
+.rtl .menu-mobile__list.show {
+    right: 0;
+}
+
+.rtl .text-left .pix-title-h2, .rtl .rtd .text-left h2.pix-title-h2{
+    padding-left: 60px;
+    padding-right: 0;
+}
+
+.rtl .pix-sidebar-box ul{
+    margin-right: 15px;
+    margin-left: auto;
+}
+.rtl .side-menu__item-news .news-text a:before,
+.rtl .side-menu__item li a:before,
+.rtl .pix-sidebar-form ul li:before{
+    right: -15px;
+    left: auto;
+    content: '\f053';
+}
+
+
+.rtl .pix-overlay-container .pix-left{
+    right: 2em;
+    left: auto;
+}
+.rtl .pix-overlay-container .pix-right{
+    left: 2rem;
+    right: auto;
+}
+
+
+.rtl .pix-gallery .pix-section-top-line {
+    justify-items: start;
+}
+.rtl .pix-gallery .pix-section-top-line .pix-gallery-slider-controls{
+    justify-self: end;
+}
+.rtl .pix-gallery-slider-controls > div {
+    margin-right: 0.5em;
+    margin-left: auto;
+}
+.rtl .pix-gallery-slider-controls > div.pix-slider-next:before{
+    content: '\f053';
+}
+.rtl .pix-gallery-slider-controls > div.pix-slider-prev:before{
+    content: '\f054';
+}
+
+.rtl ul.pix-list {
+    padding-right: 35px;
+    padding-left: 0;
+}
+.rtl .pix-footer ul.menu{
+    padding-right: 25px;
+    padding-left: 0;
+}
+.rtl ul.pix-list li:before{
+    right: -35px;
+    left: auto;
+}
+.rtl .pix-footer ul.menu li:before{
+    right: -25px;
+    left: auto;
+}
+
+.rtl.woocommerce div.product .woocommerce-tabs ul.tabs{
+    padding: 0 10px 0 0;
+}
+.rtl.woocommerce nav.woocommerce-pagination ul li{
+    float: right;
+}
+.rtl.woocommerce nav.woocommerce-pagination ul li a.next,
+.rtl.woocommerce nav.woocommerce-pagination ul li a.prev{
+    transform: rotateY(180deg);
+}
+.rtl form.searchform div:after, .rtl form.woocommerce-product-search:after{
+    left: 25px;
+    right: auto;
+}
+.rtl .woocommerce-result-count{
+    margin-right: 50px;
+}
+.rtl .woocommerce-input-wrapper{
+    width: 100%;
+}
+.rtl.woocommerce #reviews #comments ol.commentlist li .comment-text{
+    margin: 0 50px 0 0;
+    text-align: right;
+}
+.rtl.woocommerce .star-rating {
+    width: 5.3em;
+}
+.rtl.woocommerce .star-rating span{
+    float: right;
+    left: auto;
+    right: 0;
+}
+
+
+
+
+.rtl .news-card__image .label-date{
+    right: auto;
+    left: 0;
+}
+
+.rtl #news-card-latest-nav .owl-prev {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.rtl .blog-list__article .post__date,
+.rtl .blog-article .post__date{
+    left: auto;
+    right: 0;
+}
+.rtl .post__meta > span {
+    display: inline-block;
+}
+.rtl .post__meta > span > i {
+    top: 0;
+    left: auto;
+    right: -20px;
+}
+
+.rtl .post__meta > span:not(:last-child),
+.rtl .post__meta > a:not(:last-child){
+    margin-left: 0.5em;
+    margin-right: auto;
+}
+.rtl .post__meta > span:first-child{
+    margin-right: 1px;
+}
+
+
+.rtl .blog-article .footer-meta.blog-footer-tags{
+    padding-right: 21px;
+    padding-left: initial;
+}
+.rtl .blog-article .footer-meta.blog-footer-tags .blog-footer-title i{
+    right: -20px;
+    left: auto;
+}
+.rtl .blog-article__related .pix-news-prev{
+    padding-right: 40px;
+    padding-left: 15px;
+}
+.rtl .blog-article__related .pix-news-prev h4:before {
+    right: -40px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.rtl .blog-article__related .pix-news-next {
+    padding-left: 40px;
+    padding-right: 15px;
+    text-align: left;
+}
+.rtl .blog-article__related .pix-news-next h4:before {
+    left: -40px;
+    right: auto;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+
+
+
+.rtl .side-menu__item,
+.rtl .sidebar-type-2 .side-menu__item {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.rtl .side-menu__item-news .news-text a:before,
+.rtl .side-menu__item li a:before,
+.rtl .blog-article__related h4:before {
+    left: auto;
+    right: -15px;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.rtl .blog-list__article-text {
+    overflow: hidden;
+    text-align: right;
+}
+
+.rtl .pix-mc4wp input[type="submit"],
+.rtl .pix-question-form input[type="submit"]{
+    right: auto;
+    left: 0;
+}
+.rtl .pix-question-form input[type="submit"]:active {
+    transform: translate3d(-2px, 0, 0);
+}
+.rtl .pix-mc4wp .icon{
+    right: auto;
+    left: 14px;
+}
+
+
+.rtl .pix-section-tabs .nav li {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.rtl .pix-accordion-btn button{
+    padding: 20px 0 20px 25px;
+    text-align: right;
+}
+.rtl .pix-accordion-btn button:before{
+    right: auto;
+    left: 0;
+}
+.rtl .pix-accordion-btn button:after{
+    right: auto;
+    left: 7px;
+}
+.rtl .pix-accordion-body{
+    text-align: right;
+}
+
+
+.rtl .pix-ibox-side .text{
+    text-align: right;
+}
+
+
+
+@media (max-width: 575px){
+    .rtl .screen-reader-shortcut{
+        display: none;
+    }
+    
+    html .rtl .pix-container-boxed .vc_row[class*="pix_shadow_"] .vc_column_container > .vc_column-inner[class*="pix-padding"] {
+        margin-right: 15px;
+    }
+    
+    html .rtl footer .pix-container-boxed .vc_row[class*="pix_shadow_"] .vc_column_container > .vc_column-inner[class*="pix-padding"] {
+        margin-right: 0;
+    }
+    
+    .rtl .pix-button-container.pix-text-right{
+        text-align: right !important;
+    }
+}

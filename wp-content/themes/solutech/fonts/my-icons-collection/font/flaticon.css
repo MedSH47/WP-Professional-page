@@ -1,0 +1,287 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/08/2019 11:31
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-account:before { content: "\f100"; }
+.flaticon-password:before { content: "\f101"; }
+.flaticon-surveillance-camera:before { content: "\f102"; }
+.flaticon-folder:before { content: "\f103"; }
+.flaticon-shield:before { content: "\f104"; }
+.flaticon-password-1:before { content: "\f105"; }
+.flaticon-person:before { content: "\f106"; }
+.flaticon-hacker:before { content: "\f107"; }
+.flaticon-hidden-camera:before { content: "\f108"; }
+.flaticon-gear:before { content: "\f109"; }
+.flaticon-handcuffs:before { content: "\f10a"; }
+.flaticon-phone-lock:before { content: "\f10b"; }
+.flaticon-finger:before { content: "\f10c"; }
+.flaticon-protected:before { content: "\f10d"; }
+.flaticon-fingerprints:before { content: "\f10e"; }
+.flaticon-gdpr:before { content: "\f10f"; }
+.flaticon-safety-box:before { content: "\f110"; }
+.flaticon-website:before { content: "\f111"; }
+.flaticon-shield-1:before { content: "\f112"; }
+.flaticon-medal:before { content: "\f113"; }
+.flaticon-security-system:before { content: "\f114"; }
+.flaticon-smartphone:before { content: "\f115"; }
+.flaticon-bandit:before { content: "\f116"; }
+.flaticon-person-1:before { content: "\f117"; }
+.flaticon-cctv:before { content: "\f118"; }
+.flaticon-alarm:before { content: "\f119"; }
+.flaticon-password-2:before { content: "\f11a"; }
+.flaticon-detective:before { content: "\f11b"; }
+.flaticon-ssl:before { content: "\f11c"; }
+.flaticon-bulletproof-vest:before { content: "\f11d"; }
+.flaticon-location-pin:before { content: "\f11e"; }
+.flaticon-cctv-1:before { content: "\f11f"; }
+.flaticon-safety-box-1:before { content: "\f120"; }
+.flaticon-coding:before { content: "\f121"; }
+.flaticon-map:before { content: "\f122"; }
+.flaticon-cloud-computing:before { content: "\f123"; }
+.flaticon-domain-registration:before { content: "\f124"; }
+.flaticon-targeting:before { content: "\f125"; }
+.flaticon-quality:before { content: "\f126"; }
+.flaticon-search:before { content: "\f127"; }
+.flaticon-pay-per-click:before { content: "\f128"; }
+.flaticon-analytics:before { content: "\f129"; }
+.flaticon-target:before { content: "\f12a"; }
+.flaticon-bug:before { content: "\f12b"; }
+.flaticon-keywords:before { content: "\f12c"; }
+.flaticon-sitemap:before { content: "\f12d"; }
+.flaticon-concept:before { content: "\f12e"; }
+.flaticon-rating:before { content: "\f12f"; }
+.flaticon-web:before { content: "\f130"; }
+.flaticon-web-development:before { content: "\f131"; }
+.flaticon-artificial-intelligence:before { content: "\f132"; }
+.flaticon-customer:before { content: "\f133"; }
+.flaticon-siren:before { content: "\f134"; }
+.flaticon-siren-1:before { content: "\f135"; }
+.flaticon-handcuffs-1:before { content: "\f136"; }
+.flaticon-policeman:before { content: "\f137"; }
+.flaticon-gun:before { content: "\f138"; }
+.flaticon-phishing:before { content: "\f139"; }
+.flaticon-hacker-1:before { content: "\f13a"; }
+.flaticon-download:before { content: "\f13b"; }
+.flaticon-verify:before { content: "\f13c"; }
+.flaticon-syringe:before { content: "\f13d"; }
+.flaticon-siren-2:before { content: "\f13e"; }
+.flaticon-wifi:before { content: "\f13f"; }
+.flaticon-power:before { content: "\f140"; }
+.flaticon-monitor:before { content: "\f141"; }
+.flaticon-safe:before { content: "\f142"; }
+.flaticon-smart:before { content: "\f143"; }
+.flaticon-watch:before { content: "\f144"; }
+.flaticon-casino-cctv:before { content: "\f145"; }
+.flaticon-surveillance:before { content: "\f146"; }
+.flaticon-webcam:before { content: "\f147"; }
+.flaticon-footstep:before { content: "\f148"; }
+.flaticon-burn:before { content: "\f149"; }
+.flaticon-fingerprint:before { content: "\f14a"; }
+.flaticon-code:before { content: "\f14b"; }
+.flaticon-key:before { content: "\f14c"; }
+.flaticon-gas-mask:before { content: "\f14d"; }
+.flaticon-password-3:before { content: "\f14e"; }
+.flaticon-shield-2:before { content: "\f14f"; }
+.flaticon-alert:before { content: "\f150"; }
+.flaticon-fingerprint-1:before { content: "\f151"; }
+.flaticon-password-4:before { content: "\f152"; }
+.flaticon-safebox:before { content: "\f153"; }
+.flaticon-fingerprint-2:before { content: "\f154"; }
+.flaticon-key-1:before { content: "\f155"; }
+.flaticon-trophy:before { content: "\f156"; }
+.flaticon-idea:before { content: "\f157"; }
+.flaticon-https:before { content: "\f158"; }
+.flaticon-privacy:before { content: "\f159"; }
+.flaticon-password-5:before { content: "\f15a"; }
+.flaticon-lock:before { content: "\f15b"; }
+.flaticon-insurance:before { content: "\f15c"; }
+.flaticon-firewall:before { content: "\f15d"; }
+.flaticon-https-1:before { content: "\f15e"; }
+.flaticon-door-handle:before { content: "\f15f"; }
+.flaticon-lock-1:before { content: "\f160"; }
+.flaticon-key-2:before { content: "\f161"; }
+.flaticon-portfolio:before { content: "\f162"; }
+.flaticon-security:before { content: "\f163"; }
+.flaticon-cctv-2:before { content: "\f164"; }
+.flaticon-smart-lock:before { content: "\f165"; }
+.flaticon-door-knob:before { content: "\f166"; }
+.flaticon-sprinklers:before { content: "\f167"; }
+.flaticon-remote-control:before { content: "\f168"; }
+.flaticon-wifi-1:before { content: "\f169"; }
+.flaticon-thermostat:before { content: "\f16a"; }
+.flaticon-plug:before { content: "\f16b"; }
+.flaticon-remote-control-1:before { content: "\f16c"; }
+.flaticon-domotics:before { content: "\f16d"; }
+.flaticon-cpu:before { content: "\f16e"; }
+.flaticon-coffee-machine:before { content: "\f16f"; }
+.flaticon-cctv-3:before { content: "\f170"; }
+.flaticon-face-detection:before { content: "\f171"; }
+.flaticon-fingerprint-scan:before { content: "\f172"; }
+.flaticon-cctv-4:before { content: "\f173"; }
+.flaticon-security-camera:before { content: "\f174"; }
+.flaticon-life-jacket:before { content: "\f175"; }
+.flaticon-business-and-finance:before { content: "\f176"; }
+.flaticon-spyware:before { content: "\f177"; }
+.flaticon-security-camera-1:before { content: "\f178"; }
+.flaticon-webcam-1:before { content: "\f179"; }
+.flaticon-warning:before { content: "\f17a"; }
+.flaticon-key-3:before { content: "\f17b"; }
+.flaticon-fingerprint-scanner:before { content: "\f17c"; }
+.flaticon-key-4:before { content: "\f17d"; }
+.flaticon-doorknob:before { content: "\f17e"; }
+.flaticon-alarm-1:before { content: "\f17f"; }
+.flaticon-warning-1:before { content: "\f180"; }
+.flaticon-lock-2:before { content: "\f181"; }
+.flaticon-shield-3:before { content: "\f182"; }
+.flaticon-key-5:before { content: "\f183"; }
+.flaticon-spyware-1:before { content: "\f184"; }
+.flaticon-hacking:before { content: "\f185"; }
+.flaticon-malware:before { content: "\f186"; }
+.flaticon-id-card:before { content: "\f187"; }
+.flaticon-fingerprint-4:before { content: "\f188"; }
+.flaticon-hacker-2:before { content: "\f189"; }
+.flaticon-cyber-security:before { content: "\f18a"; }
+.flaticon-password-6:before { content: "\f18b"; }
+.flaticon-hacking-1:before { content: "\f18c"; }
+.flaticon-hacked:before { content: "\f18d"; }
+.flaticon-virus:before { content: "\f18e"; }
+.flaticon-hacked-1:before { content: "\f18f"; }
+.flaticon-drive:before { content: "\f190"; }
+.flaticon-spam:before { content: "\f191"; }
+.flaticon-rootkit:before { content: "\f192"; }
+.flaticon-bomb:before { content: "\f193"; }
+.flaticon-motion-sensor:before { content: "\f194"; }
+.flaticon-tap:before { content: "\f195"; }
+.flaticon-rocket:before { content: "\f196"; }
+.flaticon-smart-home:before { content: "\f197"; }
+.flaticon-eye-scan:before { content: "\f198"; }
+.flaticon-chip:before { content: "\f199"; }
+.flaticon-cloud-computing-1:before { content: "\f19a"; }
+.flaticon-cctv-5:before { content: "\f19b"; }
+.flaticon-smart-1:before { content: "\f19c"; }
+.flaticon-vacuum:before { content: "\f19d"; }
+.flaticon-smoke-detector:before { content: "\f19e"; }
+.flaticon-home-automation:before { content: "\f19f"; }
+.flaticon-smoke-detector-1:before { content: "\f1a0"; }
+.flaticon-enter-pin:before { content: "\f1a1"; }
+.flaticon-anonymous:before { content: "\f1a2"; }
+.flaticon-lifesaving:before { content: "\f1a3"; }
+.flaticon-fingerprint-5:before { content: "\f1a4"; }
+.flaticon-virus-1:before { content: "\f1a5"; }
+.flaticon-scan:before { content: "\f1a6"; }
+.flaticon-fingerprint-6:before { content: "\f1a7"; }
+.flaticon-key-6:before { content: "\f1a8"; }
+.flaticon-cctv-6:before { content: "\f1a9"; }
+.flaticon-mobile-phone:before { content: "\f1aa"; }
+.flaticon-computer:before { content: "\f1ab"; }
+.flaticon-lock-3:before { content: "\f1ac"; }
+.flaticon-muscles:before { content: "\f1ad"; }
+.flaticon-shield-4:before { content: "\f1ae"; }
+.flaticon-shield-5:before { content: "\f1af"; }
+.flaticon-browser:before { content: "\f1b0"; }
+.flaticon-computer-1:before { content: "\f1b1"; }
+.flaticon-keyboard:before { content: "\f1b2"; }
+.flaticon-wifi-2:before { content: "\f1b3"; }
+.flaticon-bug-1:before { content: "\f1b4"; }
+.flaticon-chip-1:before { content: "\f1b5"; }
+.flaticon-wifi-3:before { content: "\f1b6"; }
+.flaticon-server:before { content: "\f1b7"; }
+.flaticon-server-1:before { content: "\f1b8"; }
+.flaticon-flash-drive:before { content: "\f1b9"; }
+.flaticon-usb:before { content: "\f1ba"; }
+.flaticon-hacker-3:before { content: "\f1bb"; }
+.flaticon-wifi-4:before { content: "\f1bc"; }
+.flaticon-network:before { content: "\f1bd"; }
+.flaticon-fingerprint-7:before { content: "\f1be"; }
+.flaticon-padlock:before { content: "\f1bf"; }
+.flaticon-password-7:before { content: "\f1c0"; }
+.flaticon-siren-3:before { content: "\f1c1"; }
+.flaticon-computer-2:before { content: "\f1c2"; }
+.flaticon-shield-6:before { content: "\f1c3"; }
+.flaticon-user:before { content: "\f1c4"; }
+.flaticon-sensor:before { content: "\f1c5"; }
+.flaticon-cctv-7:before { content: "\f1c6"; }
+.flaticon-lock-4:before { content: "\f1c7"; }
+.flaticon-fingerprint-8:before { content: "\f1c8"; }
+.flaticon-laptop:before { content: "\f1c9"; }
+.flaticon-flash-drive-1:before { content: "\f1ca"; }
+.flaticon-virus-2:before { content: "\f1cb"; }
+.flaticon-sd-card:before { content: "\f1cc"; }
+.flaticon-fingerprint-9:before { content: "\f1cd"; }
+.flaticon-computer-3:before { content: "\f1ce"; }
+.flaticon-placeholder:before { content: "\f1cf"; }
+.flaticon-webcam-2:before { content: "\f1d0"; }
+.flaticon-usb-1:before { content: "\f1d1"; }
+.flaticon-fingerprint-scan-1:before { content: "\f1d2"; }
+.flaticon-keypad:before { content: "\f1d3"; }
+.flaticon-key-7:before { content: "\f1d4"; }
+.flaticon-support:before { content: "\f1d5"; }
+.flaticon-shield-7:before { content: "\f1d6"; }
+.flaticon-cctv-8:before { content: "\f1d7"; }
+.flaticon-shield-8:before { content: "\f1d8"; }
+.flaticon-telephone:before { content: "\f1d9"; }
+.flaticon-shield-9:before { content: "\f1da"; }
+.flaticon-ip-camera:before { content: "\f1db"; }
+.flaticon-vest:before { content: "\f1dc"; }
+.flaticon-cryptography:before { content: "\f1dd"; }
+.flaticon-facial:before { content: "\f1de"; }
+.flaticon-key-8:before { content: "\f1df"; }
+.flaticon-fingerprint-10:before { content: "\f1e0"; }
+.flaticon-shield-10:before { content: "\f1e1"; }
+.flaticon-malware-1:before { content: "\f1e2"; }
+.flaticon-cctv-9:before { content: "\f1e3"; }
+.flaticon-alarm-2:before { content: "\f1e4"; }
+.flaticon-data:before { content: "\f1e5"; }
+.flaticon-smoke:before { content: "\f1e6"; }
+.flaticon-focus:before { content: "\f1e7"; }
+.flaticon-shield-11:before { content: "\f1e8"; }
+.flaticon-lifesaver:before { content: "\f1e9"; }
+.flaticon-key-9:before { content: "\f1ea"; }
+.flaticon-shield-12:before { content: "\f1eb"; }
+.flaticon-credit-card:before { content: "\f1ec"; }
+.flaticon-access:before { content: "\f1ed"; }
+.flaticon-privacy-1:before { content: "\f1ee"; }
+.flaticon-antivirus:before { content: "\f1ef"; }
+.flaticon-webcam-3:before { content: "\f1f0"; }
+.flaticon-database:before { content: "\f1f1"; }
+.flaticon-padlock-1:before { content: "\f1f2"; }
+.flaticon-shield-13:before { content: "\f1f3"; }
+.flaticon-keypad-1:before { content: "\f1f4"; }
+.flaticon-virus-3:before { content: "\f1f5"; }
+.flaticon-worldwide:before { content: "\f1f6"; }
+.flaticon-padlock-2:before { content: "\f1f7"; }
+.flaticon-hacker-4:before { content: "\f1f8"; }
+.flaticon-virus-4:before { content: "\f1f9"; }
+.flaticon-folder-1:before { content: "\f1fa"; }
+.flaticon-fingerprint-11:before { content: "\f1fb"; }
+.flaticon-settings:before { content: "\f1fc"; }
+.flaticon-binary-code:before { content: "\f1fd"; }
+.flaticon-password-8:before { content: "\f1fe"; }

@@ -1,0 +1,180 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 14/08/2019 12:30
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-cyber-security:before { content: "\f100"; }
+.flaticon-hacker:before { content: "\f101"; }
+.flaticon-fingerprint:before { content: "\f102"; }
+.flaticon-spyware:before { content: "\f103"; }
+.flaticon-malware:before { content: "\f104"; }
+.flaticon-hacking:before { content: "\f105"; }
+.flaticon-hacked:before { content: "\f106"; }
+.flaticon-hacking-1:before { content: "\f107"; }
+.flaticon-ddos:before { content: "\f108"; }
+.flaticon-bomb:before { content: "\f109"; }
+.flaticon-id-card:before { content: "\f10a"; }
+.flaticon-spam:before { content: "\f10b"; }
+.flaticon-defense:before { content: "\f10c"; }
+.flaticon-password:before { content: "\f10d"; }
+.flaticon-sql:before { content: "\f10e"; }
+.flaticon-ransomware:before { content: "\f10f"; }
+.flaticon-data:before { content: "\f110"; }
+.flaticon-trojan:before { content: "\f111"; }
+.flaticon-firewall:before { content: "\f112"; }
+.flaticon-hacked-1:before { content: "\f113"; }
+.flaticon-cloud:before { content: "\f114"; }
+.flaticon-credit-card:before { content: "\f115"; }
+.flaticon-virus:before { content: "\f116"; }
+.flaticon-anonymous-message:before { content: "\f117"; }
+.flaticon-phishing:before { content: "\f118"; }
+.flaticon-antivirus:before { content: "\f119"; }
+.flaticon-drive:before { content: "\f11a"; }
+.flaticon-server:before { content: "\f11b"; }
+.flaticon-rootkit:before { content: "\f11c"; }
+.flaticon-keylogger:before { content: "\f11d"; }
+.flaticon-handcuffs:before { content: "\f11e"; }
+.flaticon-spy:before { content: "\f11f"; }
+.flaticon-password-1:before { content: "\f120"; }
+.flaticon-password-2:before { content: "\f121"; }
+.flaticon-credit-card-1:before { content: "\f122"; }
+.flaticon-virus-1:before { content: "\f123"; }
+.flaticon-security:before { content: "\f124"; }
+.flaticon-email:before { content: "\f125"; }
+.flaticon-cyber-security-1:before { content: "\f126"; }
+.flaticon-fingerprint-1:before { content: "\f127"; }
+.flaticon-malware-1:before { content: "\f128"; }
+.flaticon-hacking-2:before { content: "\f129"; }
+.flaticon-hacked-2:before { content: "\f12a"; }
+.flaticon-drive-1:before { content: "\f12b"; }
+.flaticon-server-1:before { content: "\f12c"; }
+.flaticon-keylogger-1:before { content: "\f12d"; }
+.flaticon-handcuffs-1:before { content: "\f12e"; }
+.flaticon-virus-2:before { content: "\f12f"; }
+.flaticon-password-3:before { content: "\f130"; }
+.flaticon-security-1:before { content: "\f131"; }
+.flaticon-email-1:before { content: "\f132"; }
+.flaticon-laptop:before { content: "\f133"; }
+.flaticon-password-4:before { content: "\f134"; }
+.flaticon-secure:before { content: "\f135"; }
+.flaticon-laptop-1:before { content: "\f136"; }
+.flaticon-password-5:before { content: "\f137"; }
+.flaticon-shield:before { content: "\f138"; }
+.flaticon-bug:before { content: "\f139"; }
+.flaticon-house:before { content: "\f13a"; }
+.flaticon-password-6:before { content: "\f13b"; }
+.flaticon-lock:before { content: "\f13c"; }
+.flaticon-key:before { content: "\f13d"; }
+.flaticon-key-1:before { content: "\f13e"; }
+.flaticon-emergency:before { content: "\f13f"; }
+.flaticon-gear:before { content: "\f140"; }
+.flaticon-lock-1:before { content: "\f141"; }
+.flaticon-chip:before { content: "\f142"; }
+.flaticon-cloud-1:before { content: "\f143"; }
+.flaticon-smartphone:before { content: "\f144"; }
+.flaticon-internet:before { content: "\f145"; }
+.flaticon-hacker-1:before { content: "\f146"; }
+.flaticon-folder:before { content: "\f147"; }
+.flaticon-usb:before { content: "\f148"; }
+.flaticon-safe:before { content: "\f149"; }
+.flaticon-identified-email:before { content: "\f14a"; }
+.flaticon-anonymous:before { content: "\f14b"; }
+.flaticon-safe-zone:before { content: "\f14c"; }
+.flaticon-broken-zone:before { content: "\f14d"; }
+.flaticon-alarm:before { content: "\f14e"; }
+.flaticon-enter-pin:before { content: "\f14f"; }
+.flaticon-lifesaving:before { content: "\f150"; }
+.flaticon-virus-3:before { content: "\f151"; }
+.flaticon-safebox:before { content: "\f152"; }
+.flaticon-access-locked:before { content: "\f153"; }
+.flaticon-cloud-locked:before { content: "\f154"; }
+.flaticon-good-connection:before { content: "\f155"; }
+.flaticon-padlock:before { content: "\f156"; }
+.flaticon-electronic-key:before { content: "\f157"; }
+.flaticon-padlock-open:before { content: "\f158"; }
+.flaticon-shield-1:before { content: "\f159"; }
+.flaticon-keypad:before { content: "\f15a"; }
+.flaticon-spy-1:before { content: "\f15b"; }
+.flaticon-shield-2:before { content: "\f15c"; }
+.flaticon-gun:before { content: "\f15d"; }
+.flaticon-fingerprint-2:before { content: "\f15e"; }
+.flaticon-burglar:before { content: "\f15f"; }
+.flaticon-spy-2:before { content: "\f160"; }
+.flaticon-usb-1:before { content: "\f161"; }
+.flaticon-safebox-1:before { content: "\f162"; }
+.flaticon-spy-3:before { content: "\f163"; }
+.flaticon-shoe:before { content: "\f164"; }
+.flaticon-shield-3:before { content: "\f165"; }
+.flaticon-eye:before { content: "\f166"; }
+.flaticon-keys:before { content: "\f167"; }
+.flaticon-unlock:before { content: "\f168"; }
+.flaticon-chip-1:before { content: "\f169"; }
+.flaticon-diploma:before { content: "\f16a"; }
+.flaticon-security-camera:before { content: "\f16b"; }
+.flaticon-fingerprint-3:before { content: "\f16c"; }
+.flaticon-cctv:before { content: "\f16d"; }
+.flaticon-cctv-1:before { content: "\f16e"; }
+.flaticon-shield-4:before { content: "\f16f"; }
+.flaticon-shield-5:before { content: "\f170"; }
+.flaticon-user:before { content: "\f171"; }
+.flaticon-monitor:before { content: "\f172"; }
+.flaticon-cctv-2:before { content: "\f173"; }
+.flaticon-shield-6:before { content: "\f174"; }
+.flaticon-user-1:before { content: "\f175"; }
+.flaticon-shield-7:before { content: "\f176"; }
+.flaticon-eye-scan:before { content: "\f177"; }
+.flaticon-shield-8:before { content: "\f178"; }
+.flaticon-shield-9:before { content: "\f179"; }
+.flaticon-warning:before { content: "\f17a"; }
+.flaticon-key-2:before { content: "\f17b"; }
+.flaticon-spy-4:before { content: "\f17c"; }
+.flaticon-privacy:before { content: "\f17d"; }
+.flaticon-credit-card-2:before { content: "\f17e"; }
+.flaticon-access:before { content: "\f17f"; }
+.flaticon-database:before { content: "\f180"; }
+.flaticon-antivirus-1:before { content: "\f181"; }
+.flaticon-virus-4:before { content: "\f182"; }
+.flaticon-webcam:before { content: "\f183"; }
+.flaticon-padlock-1:before { content: "\f184"; }
+.flaticon-keypad-1:before { content: "\f185"; }
+.flaticon-cloud-computing:before { content: "\f186"; }
+.flaticon-padlock-2:before { content: "\f187"; }
+.flaticon-smartphone-1:before { content: "\f188"; }
+.flaticon-shield-10:before { content: "\f189"; }
+.flaticon-pendrive:before { content: "\f18a"; }
+.flaticon-browser:before { content: "\f18b"; }
+.flaticon-smartphone-2:before { content: "\f18c"; }
+.flaticon-padlock-3:before { content: "\f18d"; }
+.flaticon-folder-1:before { content: "\f18e"; }
+.flaticon-computer:before { content: "\f18f"; }
+.flaticon-email-2:before { content: "\f190"; }
+.flaticon-browser-1:before { content: "\f191"; }
+.flaticon-bomb-1:before { content: "\f192"; }
+.flaticon-alert:before { content: "\f193"; }
